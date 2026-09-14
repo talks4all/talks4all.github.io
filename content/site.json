@@ -30,7 +30,7 @@
   "i18n": {
     "pt": {
       "site_description": "Palestras sobre inteligência artificial: slides, resumos e materiais, em português, inglês e espanhol.",
-      "home_title": "Palestras sobre inteligência artificial, abertas a quem quiser assistir.",
+      "home_title": "Palestras sobre inteligência artificial e aprendizado de máquina, abertas a quem quiser assistir.",
       "home_lede": "Este é o arquivo público das palestras de Diego Kreutz sobre o que a inteligência artificial já está mudando no trabalho, na sala de aula e na Fronteira Oeste do Rio Grande do Sul. Cada palestra traz o resumo, o roteiro, os números citados e os slides para baixar.",
       "talks_heading": "Palestras",
       "speaker_heading": "Quem apresenta",
@@ -59,7 +59,7 @@
     },
     "en": {
       "site_description": "Public talks on artificial intelligence: slides, summaries and materials, in Portuguese, English and Spanish.",
-      "home_title": "Public talks on artificial intelligence, open to anyone who wants to listen.",
+      "home_title": "Public talks on artificial intelligence and machine learning, open to anyone who wants to listen.",
       "home_lede": "This is the public archive of Diego Kreutz's talks on what artificial intelligence is already changing at work, in the classroom and across the western frontier of Rio Grande do Sul, Brazil. Every talk comes with a summary, the running order, the figures quoted on stage and the slides to download.",
       "talks_heading": "Talks",
       "speaker_heading": "The speaker",
@@ -88,7 +88,7 @@
     },
     "es": {
       "site_description": "Charlas sobre inteligencia artificial: diapositivas, resúmenes y materiales, en portugués, inglés y español.",
-      "home_title": "Charlas sobre inteligencia artificial, abiertas a quien quiera escuchar.",
+      "home_title": "Charlas sobre inteligencia artificial y aprendizaje automático, abiertas a quien quiera escuchar.",
       "home_lede": "Este es el archivo público de las charlas de Diego Kreutz sobre lo que la inteligencia artificial ya está cambiando en el trabajo, en el aula y en la Frontera Oeste de Rio Grande do Sul, en el sur de Brasil. Cada charla trae el resumen, el guion, las cifras citadas y las diapositivas para descargar.",
       "talks_heading": "Charlas",
       "speaker_heading": "Quién presenta",

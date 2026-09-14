@@ -107,7 +107,8 @@ a { color: inherit; }
 .hero__title {
   font-size: clamp(2.1rem, 1.1rem + 4vw, 3.9rem);
   letter-spacing: -0.03em;
-  max-width: 18ch;
+  max-width: 22ch;
+  text-wrap: balance;
 }
 .hero__lede {
   margin-top: 1.6rem; max-width: var(--measure);
@@ -155,7 +156,7 @@ section + section { border-top: 1px solid var(--rule); }
   font-family: var(--display); font-size: 0.8125rem; color: var(--ink-mute);
   text-align: right; line-height: 1.5; white-space: nowrap;
 }
-.talk__year { display: block; color: var(--ink); font-size: 1rem; }
+.talk__date { display: block; color: var(--ink); font-size: 0.9375rem; }
 
 /* ---------- quem apresenta ---------- */
 
@@ -299,7 +300,6 @@ section + section { border-top: 1px solid var(--rule); }
   .about { grid-template-columns: 1fr; }
   .talk { grid-template-columns: 1fr; }
   .talk__aside { text-align: left; }
-  .talk__year { display: inline; }
   .outline li { grid-template-columns: 2.25rem minmax(0, 1fr); }
   .talk::before { left: -0.6rem; }
 }

@@ -36,7 +36,7 @@ O comando apaga e recria as pastas `pt/`, `en/` e `es/`. Depois é só commitar 
 
 1. Crie `content/talks/<slug>.json` copiando a estrutura de uma palestra existente. O `slug` vira o endereço da página, então use apenas letras minúsculas, números e hífens.
 2. Preencha os três idiomas em `i18n`. Os campos `host` e `numbers` são opcionais; os demais aparecem sempre.
-3. Ajuste `order`, que define a posição na página inicial, e `status`, que aceita `upcoming` ou `past`.
+3. Preencha `date_iso` no formato `AAAA-MM-DD`, ou `AAAA-MM` quando só o mês for conhecido. Ele define a data mostrada na listagem e a ordem, que é sempre da palestra mais recente para a mais antiga. Ajuste também `status`, que aceita `upcoming` ou `past`.
 4. Coloque os slides em `files/` e aponte o nome do arquivo em `downloads`. O tamanho mostrado no site é lido do arquivo durante o build.
 5. Rode `python3 build.py`.
 

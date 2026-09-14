@@ -1,22 +1,64 @@
 {
   "slug": "ia-no-seu-dia-urcamp",
-  "order": 2,
   "status": "upcoming",
   "date_iso": "2026-09-14",
-  "year": "2026",
   "downloads": [
     {
       "file": "ia-no-seu-dia-urcamp.pptx",
       "format": "PPTX",
-      "label": { "pt": "Slides da palestra", "en": "Talk slides", "es": "Diapositivas de la charla" }
+      "label": {
+        "pt": "Slides da palestra",
+        "en": "Talk slides",
+        "es": "Diapositivas de la charla"
+      }
     }
   ],
   "resources": [
-    { "name": "ChatGPT", "url": "https://chat.openai.com", "note": { "pt": "Comece por uma tarefa repetitiva do seu estágio ou do seu trabalho.", "en": "Start with one repetitive task from your internship or your job.", "es": "Empieza por una tarea repetitiva de tu práctica o de tu trabajo." } },
-    { "name": "Gemini", "url": "https://gemini.google.com", "note": { "pt": "Alternativa do Google, útil para comparar respostas entre modelos.", "en": "Google's alternative, useful for comparing answers between models.", "es": "La alternativa de Google, útil para comparar respuestas entre modelos." } },
-    { "name": "Microsoft Copilot", "url": "https://copilot.microsoft.com", "note": { "pt": "Dentro do Excel, onde mora boa parte do trabalho administrativo.", "en": "Inside Excel, where a good share of administrative work lives.", "es": "Dentro de Excel, donde vive buena parte del trabajo administrativo." } },
-    { "name": "LGPD, Lei 13.709", "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm", "note": { "pt": "O artigo 20 trata da revisão de decisões automatizadas. Leia antes de automatizar qualquer coisa que afete pessoas.", "en": "Article 20 of the Brazilian data protection law covers review of automated decisions. Read it before automating anything that affects people.", "es": "El artículo 20 de la ley brasileña de protección de datos trata la revisión de decisiones automatizadas. Léelo antes de automatizar algo que afecte a personas." } },
-    { "name": "Grow with Google", "url": "https://grow.google", "note": { "pt": "Trilha gratuita de nivelamento, boa para quem está começando do zero.", "en": "Free introductory track, good for starting from zero.", "es": "Itinerario gratuito de nivelación, bueno para empezar desde cero." } }
+    {
+      "name": "ChatGPT",
+      "url": "https://chat.openai.com",
+      "note": {
+        "pt": "Comece por uma tarefa repetitiva do seu estágio ou do seu trabalho.",
+        "en": "Start with one repetitive task from your internship or your job.",
+        "es": "Empieza por una tarea repetitiva de tu práctica o de tu trabajo."
+      }
+    },
+    {
+      "name": "Gemini",
+      "url": "https://gemini.google.com",
+      "note": {
+        "pt": "Alternativa do Google, útil para comparar respostas entre modelos.",
+        "en": "Google's alternative, useful for comparing answers between models.",
+        "es": "La alternativa de Google, útil para comparar respuestas entre modelos."
+      }
+    },
+    {
+      "name": "Microsoft Copilot",
+      "url": "https://copilot.microsoft.com",
+      "note": {
+        "pt": "Dentro do Excel, onde mora boa parte do trabalho administrativo.",
+        "en": "Inside Excel, where a good share of administrative work lives.",
+        "es": "Dentro de Excel, donde vive buena parte del trabajo administrativo."
+      }
+    },
+    {
+      "name": "LGPD, Lei 13.709",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+      "note": {
+        "pt": "O artigo 20 trata da revisão de decisões automatizadas. Leia antes de automatizar qualquer coisa que afete pessoas.",
+        "en": "Article 20 of the Brazilian data protection law covers review of automated decisions. Read it before automating anything that affects people.",
+        "es": "El artículo 20 de la ley brasileña de protección de datos trata la revisión de decisiones automatizadas. Léelo antes de automatizar algo que afecte a personas."
+      }
+    },
+    {
+      "name": "Grow with Google",
+      "url": "https://grow.google",
+      "note": {
+        "pt": "Trilha gratuita de nivelamento, boa para quem está começando do zero.",
+        "en": "Free introductory track, good for starting from zero.",
+        "es": "Itinerario gratuito de nivelación, bueno para empezar desde cero."
+      }
+    }
   ],
   "i18n": {
     "pt": {
@@ -34,23 +76,68 @@
         "A segunda metade fala da universidade. A transformação do mercado começa quatro anos antes, dentro da sala de aula, e já aconteceu na disciplina ao lado: alunos do primeiro semestre de Engenharia entregando em duas horas aplicações que seriam trabalho de conclusão há cinco anos."
       ],
       "numbers": [
-        { "value": "6 perguntas", "label": "A palestra é construída em torno de seis perguntas feitas diretamente à plateia, da primeira à última." },
-        { "value": "0 linha de código", "label": "Nenhuma parte do conteúdo exige saber programar." },
-        { "value": "Artigo 20", "label": "O trecho da LGPD que garante ao cidadão pedir revisão de uma decisão tomada por máquina." },
-        { "value": "15 minutos por dia", "label": "O hábito que, mantido por trinta dias, muda mais que um curso de quarenta horas." }
+        {
+          "value": "6 perguntas",
+          "label": "A palestra é construída em torno de seis perguntas feitas diretamente à plateia, da primeira à última."
+        },
+        {
+          "value": "0 linha de código",
+          "label": "Nenhuma parte do conteúdo exige saber programar."
+        },
+        {
+          "value": "Artigo 20",
+          "label": "O trecho da LGPD que garante ao cidadão pedir revisão de uma decisão tomada por máquina."
+        },
+        {
+          "value": "15 minutos por dia",
+          "label": "O hábito que, mantido por trinta dias, muda mais que um curso de quarenta horas."
+        }
       ],
       "outline": [
-        { "title": "Quem usou IA nas últimas 24 horas", "text": "Todo mundo levanta a mão. A lista do que você percebeu e a lista, bem maior, do que você não percebeu." },
-        { "title": "O que ela é, e o que ela não é", "text": "Software que aprende padrões em dados, custa centavos por tarefa e não pode ser responsabilizado por nada que faz." },
-        { "title": "A virada: de programar regras para mostrar exemplos", "text": "Onde a regra fixa quebra, do antifraude que bloqueia o cliente em viagem ao corte de score que nega o bom pagador. E onde o dado ganha." },
-        { "title": "Onde ela acerta, e onde ela erra feio", "text": "Inventa fonte, reproduz viés e não sabe quando não sabe. Releia essa coluna pensando em gente: a descrição serve para nós dois." },
-        { "title": "A régua não é a tarefa, é o custo do erro", "text": "O critério para automatizar não é a dificuldade do que se automatiza, é o que acontece quando a resposta está errada." },
-        { "title": "O que muda em cada função da Administração", "text": "Finanças, pessoas, marketing e vendas, operações e estratégia. O que a ferramenta faz, e o que continua exigindo assinatura humana." },
-        { "title": "Fronteira Oeste, na prática", "text": "O agro que já é usuário pesado de IA, o comércio de Alegrete que ganha no básico e a gestão pública que precisa de escala sem contratar." },
-        { "title": "Não é a profissão que some, é a tarefa que muda de mão", "text": "Toda profissão é um pacote de tarefas, e a IA pega primeiro as textuais e repetitivas. Quem redesenha o próprio pacote segue no jogo." },
-        { "title": "O risco silencioso: terceirizar o pensamento", "text": "Usar sem ler é o novo copiar e colar. Quem não sabe fazer não sabe conferir, e a resposta média vira o teto da equipe inteira." },
-        { "title": "A mudança começa na universidade", "text": "Três aplicações entregues em duas horas por alunos de primeiro semestre de Engenharia, e o que a disciplina precisou virar para que isso acontecesse." },
-        { "title": "Quatro hábitos para começar amanhã de manhã", "text": "Dar contexto, pedir três versões, verificar tudo que tem número ou fonte, e nunca entregar o que você não conseguiria defender sozinho." }
+        {
+          "title": "Quem usou IA nas últimas 24 horas",
+          "text": "Todo mundo levanta a mão. A lista do que você percebeu e a lista, bem maior, do que você não percebeu."
+        },
+        {
+          "title": "O que ela é, e o que ela não é",
+          "text": "Software que aprende padrões em dados, custa centavos por tarefa e não pode ser responsabilizado por nada que faz."
+        },
+        {
+          "title": "A virada: de programar regras para mostrar exemplos",
+          "text": "Onde a regra fixa quebra, do antifraude que bloqueia o cliente em viagem ao corte de score que nega o bom pagador. E onde o dado ganha."
+        },
+        {
+          "title": "Onde ela acerta, e onde ela erra feio",
+          "text": "Inventa fonte, reproduz viés e não sabe quando não sabe. Releia essa coluna pensando em gente: a descrição serve para nós dois."
+        },
+        {
+          "title": "A régua não é a tarefa, é o custo do erro",
+          "text": "O critério para automatizar não é a dificuldade do que se automatiza, é o que acontece quando a resposta está errada."
+        },
+        {
+          "title": "O que muda em cada função da Administração",
+          "text": "Finanças, pessoas, marketing e vendas, operações e estratégia. O que a ferramenta faz, e o que continua exigindo assinatura humana."
+        },
+        {
+          "title": "Fronteira Oeste, na prática",
+          "text": "O agro que já é usuário pesado de IA, o comércio de Alegrete que ganha no básico e a gestão pública que precisa de escala sem contratar."
+        },
+        {
+          "title": "Não é a profissão que some, é a tarefa que muda de mão",
+          "text": "Toda profissão é um pacote de tarefas, e a IA pega primeiro as textuais e repetitivas. Quem redesenha o próprio pacote segue no jogo."
+        },
+        {
+          "title": "O risco silencioso: terceirizar o pensamento",
+          "text": "Usar sem ler é o novo copiar e colar. Quem não sabe fazer não sabe conferir, e a resposta média vira o teto da equipe inteira."
+        },
+        {
+          "title": "A mudança começa na universidade",
+          "text": "Três aplicações entregues em duas horas por alunos de primeiro semestre de Engenharia, e o que a disciplina precisou virar para que isso acontecesse."
+        },
+        {
+          "title": "Quatro hábitos para começar amanhã de manhã",
+          "text": "Dar contexto, pedir três versões, verificar tudo que tem número ou fonte, e nunca entregar o que você não conseguiria defender sozinho."
+        }
       ],
       "takeaways": [
         "IA deixou de ser assunto de TI. Virou infraestrutura da decisão.",
@@ -74,23 +161,68 @@
         "The second half is about the university. Change in the job market starts four years earlier, inside the classroom, and it has already happened one course down the hall: first semester engineering students delivering in two hours what would have been a final year project five years ago."
       ],
       "numbers": [
-        { "value": "6 questions", "label": "The talk is built around six questions put directly to the audience, from the first slide to the last." },
-        { "value": "0 lines of code", "label": "No part of the content requires knowing how to program." },
-        { "value": "Article 20", "label": "The clause of the Brazilian data protection law that lets a citizen ask for review of a decision made by a machine." },
-        { "value": "15 minutes a day", "label": "The habit that, kept for thirty days, changes more than a forty hour course." }
+        {
+          "value": "6 questions",
+          "label": "The talk is built around six questions put directly to the audience, from the first slide to the last."
+        },
+        {
+          "value": "0 lines of code",
+          "label": "No part of the content requires knowing how to program."
+        },
+        {
+          "value": "Article 20",
+          "label": "The clause of the Brazilian data protection law that lets a citizen ask for review of a decision made by a machine."
+        },
+        {
+          "value": "15 minutes a day",
+          "label": "The habit that, kept for thirty days, changes more than a forty hour course."
+        }
       ],
       "outline": [
-        { "title": "Who used AI in the last 24 hours", "text": "Every hand goes up. The list of what you noticed, and the much longer list of what you did not." },
-        { "title": "What it is, and what it is not", "text": "Software that learns patterns from data, costs cents per task, and cannot be held responsible for anything it does." },
-        { "title": "The shift: from coding rules to showing examples", "text": "Where fixed rules break, from the fraud filter that blocks a customer on holiday to the credit cutoff that rejects a reliable payer. And where learning from data wins." },
-        { "title": "Where it shines, and where it fails badly", "text": "It invents sources, reproduces bias and does not know when it does not know. Read that column again thinking about people: the description fits both of us." },
-        { "title": "The measure is not the task, it is the cost of the error", "text": "What decides whether to automate is not how hard the task is, it is what happens when the answer is wrong." },
-        { "title": "What changes in each management function", "text": "Finance, people, marketing and sales, operations and strategy. What the tool does, and what still requires a human signature." },
-        { "title": "The western frontier, in practice", "text": "Farming that is already a heavy AI user, local retail that wins on the basics, and public administration that needs scale without hiring." },
-        { "title": "Professions do not vanish, tasks change hands", "text": "Every profession is a bundle of tasks, and AI takes the textual, repetitive ones first. Redesign your own bundle and you stay in the game." },
-        { "title": "The quiet risk: outsourcing your thinking", "text": "Using without reading is the new copy and paste. If you cannot do it, you cannot check it, and the average answer becomes the ceiling for the whole team." },
-        { "title": "Change starts at the university", "text": "Three applications delivered in two hours by first semester engineering students, and what the course itself had to become for that to happen." },
-        { "title": "Four habits to start tomorrow morning", "text": "Give context, ask for three versions, verify anything with a number or a source, and never hand in what you could not defend on your own." }
+        {
+          "title": "Who used AI in the last 24 hours",
+          "text": "Every hand goes up. The list of what you noticed, and the much longer list of what you did not."
+        },
+        {
+          "title": "What it is, and what it is not",
+          "text": "Software that learns patterns from data, costs cents per task, and cannot be held responsible for anything it does."
+        },
+        {
+          "title": "The shift: from coding rules to showing examples",
+          "text": "Where fixed rules break, from the fraud filter that blocks a customer on holiday to the credit cutoff that rejects a reliable payer. And where learning from data wins."
+        },
+        {
+          "title": "Where it shines, and where it fails badly",
+          "text": "It invents sources, reproduces bias and does not know when it does not know. Read that column again thinking about people: the description fits both of us."
+        },
+        {
+          "title": "The measure is not the task, it is the cost of the error",
+          "text": "What decides whether to automate is not how hard the task is, it is what happens when the answer is wrong."
+        },
+        {
+          "title": "What changes in each management function",
+          "text": "Finance, people, marketing and sales, operations and strategy. What the tool does, and what still requires a human signature."
+        },
+        {
+          "title": "The western frontier, in practice",
+          "text": "Farming that is already a heavy AI user, local retail that wins on the basics, and public administration that needs scale without hiring."
+        },
+        {
+          "title": "Professions do not vanish, tasks change hands",
+          "text": "Every profession is a bundle of tasks, and AI takes the textual, repetitive ones first. Redesign your own bundle and you stay in the game."
+        },
+        {
+          "title": "The quiet risk: outsourcing your thinking",
+          "text": "Using without reading is the new copy and paste. If you cannot do it, you cannot check it, and the average answer becomes the ceiling for the whole team."
+        },
+        {
+          "title": "Change starts at the university",
+          "text": "Three applications delivered in two hours by first semester engineering students, and what the course itself had to become for that to happen."
+        },
+        {
+          "title": "Four habits to start tomorrow morning",
+          "text": "Give context, ask for three versions, verify anything with a number or a source, and never hand in what you could not defend on your own."
+        }
       ],
       "takeaways": [
         "AI stopped being an IT topic. It became decision infrastructure.",
@@ -114,23 +246,68 @@
         "La segunda mitad habla de la universidad. La transformación del mercado empieza cuatro años antes, dentro del aula, y ya ocurrió en la asignatura de al lado: alumnos de primer semestre de Ingeniería entregando en dos horas aplicaciones que hace cinco años habrían sido trabajo de fin de carrera."
       ],
       "numbers": [
-        { "value": "6 preguntas", "label": "La charla está construida sobre seis preguntas hechas directamente al público, de la primera a la última." },
-        { "value": "0 líneas de código", "label": "Ninguna parte del contenido exige saber programar." },
-        { "value": "Artículo 20", "label": "El punto de la ley brasileña de protección de datos que permite al ciudadano pedir la revisión de una decisión tomada por una máquina." },
-        { "value": "15 minutos al día", "label": "El hábito que, mantenido durante treinta días, cambia más que un curso de cuarenta horas." }
+        {
+          "value": "6 preguntas",
+          "label": "La charla está construida sobre seis preguntas hechas directamente al público, de la primera a la última."
+        },
+        {
+          "value": "0 líneas de código",
+          "label": "Ninguna parte del contenido exige saber programar."
+        },
+        {
+          "value": "Artículo 20",
+          "label": "El punto de la ley brasileña de protección de datos que permite al ciudadano pedir la revisión de una decisión tomada por una máquina."
+        },
+        {
+          "value": "15 minutos al día",
+          "label": "El hábito que, mantenido durante treinta días, cambia más que un curso de cuarenta horas."
+        }
       ],
       "outline": [
-        { "title": "Quién usó IA en las últimas 24 horas", "text": "Se levantan todas las manos. La lista de lo que notaste y la lista, mucho mayor, de lo que no notaste." },
-        { "title": "Lo que es, y lo que no es", "text": "Software que aprende patrones en datos, cuesta centavos por tarea y no puede ser responsabilizado por nada de lo que hace." },
-        { "title": "El giro: de programar reglas a mostrar ejemplos", "text": "Dónde se rompe la regla fija, del antifraude que bloquea al cliente de viaje al corte de score que rechaza al buen pagador. Y dónde gana el dato." },
-        { "title": "Dónde acierta, y dónde se equivoca feo", "text": "Inventa fuentes, reproduce sesgos y no sabe cuándo no sabe. Relee esa columna pensando en personas: la descripción nos sirve a los dos." },
-        { "title": "La vara no es la tarea, es el costo del error", "text": "El criterio para automatizar no es lo difícil que sea la tarea, es lo que pasa cuando la respuesta está mal." },
-        { "title": "Qué cambia en cada función de la Administración", "text": "Finanzas, personas, marketing y ventas, operaciones y estrategia. Lo que hace la herramienta, y lo que sigue exigiendo firma humana." },
-        { "title": "La Frontera Oeste, en la práctica", "text": "El agro que ya es usuario intensivo de IA, el comercio local que gana en lo básico y la gestión pública que necesita escala sin contratar." },
-        { "title": "No desaparece la profesión, cambia de manos la tarea", "text": "Toda profesión es un paquete de tareas, y la IA toma primero las textuales y repetitivas. Quien rediseña su propio paquete sigue en el juego." },
-        { "title": "El riesgo silencioso: tercerizar el pensamiento", "text": "Usar sin leer es el nuevo copiar y pegar. Quien no sabe hacer no sabe revisar, y la respuesta media se vuelve el techo de todo el equipo." },
-        { "title": "El cambio empieza en la universidad", "text": "Tres aplicaciones entregadas en dos horas por alumnos de primer semestre de Ingeniería, y en qué tuvo que convertirse la asignatura para que eso ocurriera." },
-        { "title": "Cuatro hábitos para empezar mañana por la mañana", "text": "Dar contexto, pedir tres versiones, verificar todo lo que tenga cifra o fuente, y nunca entregar lo que no podrías defender solo." }
+        {
+          "title": "Quién usó IA en las últimas 24 horas",
+          "text": "Se levantan todas las manos. La lista de lo que notaste y la lista, mucho mayor, de lo que no notaste."
+        },
+        {
+          "title": "Lo que es, y lo que no es",
+          "text": "Software que aprende patrones en datos, cuesta centavos por tarea y no puede ser responsabilizado por nada de lo que hace."
+        },
+        {
+          "title": "El giro: de programar reglas a mostrar ejemplos",
+          "text": "Dónde se rompe la regla fija, del antifraude que bloquea al cliente de viaje al corte de score que rechaza al buen pagador. Y dónde gana el dato."
+        },
+        {
+          "title": "Dónde acierta, y dónde se equivoca feo",
+          "text": "Inventa fuentes, reproduce sesgos y no sabe cuándo no sabe. Relee esa columna pensando en personas: la descripción nos sirve a los dos."
+        },
+        {
+          "title": "La vara no es la tarea, es el costo del error",
+          "text": "El criterio para automatizar no es lo difícil que sea la tarea, es lo que pasa cuando la respuesta está mal."
+        },
+        {
+          "title": "Qué cambia en cada función de la Administración",
+          "text": "Finanzas, personas, marketing y ventas, operaciones y estrategia. Lo que hace la herramienta, y lo que sigue exigiendo firma humana."
+        },
+        {
+          "title": "La Frontera Oeste, en la práctica",
+          "text": "El agro que ya es usuario intensivo de IA, el comercio local que gana en lo básico y la gestión pública que necesita escala sin contratar."
+        },
+        {
+          "title": "No desaparece la profesión, cambia de manos la tarea",
+          "text": "Toda profesión es un paquete de tareas, y la IA toma primero las textuales y repetitivas. Quien rediseña su propio paquete sigue en el juego."
+        },
+        {
+          "title": "El riesgo silencioso: tercerizar el pensamiento",
+          "text": "Usar sin leer es el nuevo copiar y pegar. Quien no sabe hacer no sabe revisar, y la respuesta media se vuelve el techo de todo el equipo."
+        },
+        {
+          "title": "El cambio empieza en la universidad",
+          "text": "Tres aplicaciones entregadas en dos horas por alumnos de primer semestre de Ingeniería, y en qué tuvo que convertirse la asignatura para que eso ocurriera."
+        },
+        {
+          "title": "Cuatro hábitos para empezar mañana por la mañana",
+          "text": "Dar contexto, pedir tres versiones, verificar todo lo que tenga cifra o fuente, y nunca entregar lo que no podrías defender solo."
+        }
       ],
       "takeaways": [
         "La IA dejó de ser un asunto de TI. Se volvió infraestructura de la decisión.",

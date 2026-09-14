@@ -26,6 +26,30 @@ FONTS = (
 )
 
 
+MONTHS = {
+    "pt": ["janeiro", "fevereiro", "março", "abril", "maio", "junho",
+           "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"],
+    "en": ["January", "February", "March", "April", "May", "June",
+           "July", "August", "September", "October", "November", "December"],
+    "es": ["enero", "febrero", "marzo", "abril", "mayo", "junio",
+           "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"],
+}
+
+
+def format_date(date_iso: str, lang: str) -> str:
+    """Formata 2026-05 como Maio de 2026 e 2026-09-14 como 14 de setembro de 2026."""
+    parts = str(date_iso).split("-")
+    if len(parts) < 2:
+        return str(date_iso)
+    year, month = parts[0], MONTHS[lang][int(parts[1]) - 1]
+    if len(parts) == 2:
+        return f"{month.capitalize()} {year}" if lang == "en" else f"{month.capitalize()} de {year}"
+    day = int(parts[2])
+    if lang == "en":
+        return f"{day} {month} {year}"
+    return f"{day} de {month} de {year}"
+
+
 def esc(value: str) -> str:
     return html.escape(str(value), quote=True)
 
@@ -39,13 +63,21 @@ def human_size(path: Path) -> str:
     return f"{size / 1024:.0f} KB"
 
 
+def sort_key(talk: dict) -> tuple[str, str]:
+    """Ordena da mais recente para a mais antiga. Uma data sem dia entra como dia 00."""
+    parts = str(talk["date_iso"]).split("-")
+    while len(parts) < 3:
+        parts.append("00")
+    return ("-".join(f"{p:0>2}" for p in parts), talk["slug"])
+
+
 def load_content() -> tuple[dict, list[dict]]:
     site = json.loads((CONTENT / "site.json").read_text(encoding="utf-8"))
     talks = [
         json.loads(p.read_text(encoding="utf-8"))
         for p in sorted((CONTENT / "talks").glob("*.json"))
     ]
-    talks.sort(key=lambda t: t.get("order", 999))
+    talks.sort(key=sort_key, reverse=True)
     return site, talks
 
 
@@ -146,7 +178,7 @@ def render_home(site: dict, talks: list[dict], lang: str) -> str:
         <h3 class="talk__title">{esc(c['title'])}</h3>
         <p class="talk__tagline">{esc(c['tagline'])}</p>
       </div>
-      <p class="talk__aside"><span class="talk__year">{esc(talk.get('year', ''))}</span>{esc(status)}</p>
+      <p class="talk__aside"><span class="talk__date">{esc(format_date(talk['date_iso'], lang))}</span>{esc(status)}</p>
     </a></li>""")
 
     out.append(f"""  <section aria-labelledby="palestras">
