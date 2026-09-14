@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ML, AutoML, XAI y AML en la detección de malware Android: Tempest Academy Conference 2023</title>
+  <meta name="description" content="Esta charla trata de investigación aplicada y del camino recorrido: la trayectoria, los desafíos, las lecciones y los hallazgos de aplicar aprendizaje automático, AutoML, inteligencia artificial explicable y aprendizaje automático adversarial al problema de detectar malware en Android.">
+  <link rel="canonical" href="https://talks4all.github.io/es/tempest-academy-2023/">
+  <link rel="alternate" hreflang="pt-BR" href="https://talks4all.github.io/pt/tempest-academy-2023/">
+  <link rel="alternate" hreflang="en" href="https://talks4all.github.io/en/tempest-academy-2023/">
+  <link rel="alternate" hreflang="es" href="https://talks4all.github.io/es/tempest-academy-2023/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="talks4all">
+  <meta property="og:title" content="ML, AutoML, XAI y AML en la detección de malware Android: Tempest Academy Conference 2023">
+  <meta property="og:description" content="Esta charla trata de investigación aplicada y del camino recorrido: la trayectoria, los desafíos, las lecciones y los hallazgos de aplicar aprendizaje automático, AutoML, inteligencia artificial explicable y aprendizaje automático adversarial al problema de detectar malware en Android.">
+  <meta property="og:url" content="https://talks4all.github.io/es/tempest-academy-2023/">
+  <meta property="og:locale" content="es">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..600;1,8..60,400..600&display=swap">
+  <link rel="stylesheet" href="/assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#conteudo">Ir al contenido</a>
+<header class="masthead">
+  <div class="wrap masthead__inner">
+    <a class="wordmark" href="/es/">talks<b>4</b>all</a>
+    <nav class="langs" aria-label="Idioma">
+      <a href="/pt/tempest-academy-2023/" lang="pt-BR" hreflang="pt-BR">PT</a><a href="/en/tempest-academy-2023/" lang="en" hreflang="en">EN</a><a href="/es/tempest-academy-2023/" lang="es" hreflang="es" aria-current="true">ES</a>
+    </nav>
+  </div>
+</header>
+<main id="conteudo">
+<div class="wrap">
+  <a class="backlink" href="/es/">Todas las charlas</a>
+  <div class="talk-hero">
+    <p class="talk-hero__event rise">Tempest Academy Conference 2023</p>
+    <h1 class="talk-hero__title rise">ML, AutoML, XAI y AML en la detección de malware Android</h1>
+    <p class="talk-hero__tagline rise">Ocho herramientas después, el cuello de botella sigue siendo el dato.</p>
+  </div>
+  <dl class="meta">
+    <div><dt>Cuándo</dt><dd>2023</dd></div>
+    <div><dt>Dónde</dt><dd>Recife, Pernambuco, Brasil</dd></div>
+    <div><dt>Formato</dt><dd>Charla técnica sobre investigación aplicada, con sesión Ask the Experts al final</dd></div>
+    <div><dt>Público</dt><dd>Profesionales de seguridad, investigadores y estudiantes de computación</dd></div>
+  </dl>
+  <section aria-labelledby="sobre">
+    <h2 class="section-title" id="sobre">Sobre la charla</h2>
+    <div class="prose">
+      <p>Esta charla trata de investigación aplicada y del camino recorrido: la trayectoria, los desafíos, las lecciones y los hallazgos de aplicar aprendizaje automático, AutoML, inteligencia artificial explicable y aprendizaje automático adversarial al problema de detectar malware en Android.</p>
+      <p>El hilo conductor es el pipeline de AutoML, de la adquisición de datos a la optimización de hiperparámetros, con dos preguntas que la literatura suele dejar de lado: ¿existen optimizaciones específicas del dominio, y son las herramientas actuales lo bastante transparentes para que alguien entienda qué hicieron?</p>
+      <p>En el camino se construyeron ocho sistemas, entre generadores de conjuntos de datos, un framework de evaluación de métodos de selección de características y una solución de AutoML con transparencia e interpretabilidad. La parte más difícil, de principio a fin, fue el dato.</p>
+    </div>
+  </section>
+  <section aria-labelledby="numeros">
+    <h2 class="section-title" id="numeros">En cifras</h2>
+    <ul class="numbers">
+      <li><b>8 herramientas</b><span>Sistemas construidos a lo largo de la investigación, del generador de conjuntos de datos al framework de AutoML con interpretabilidad.</span></li>
+      <li><b>100%</b><span>De los 38 trabajos analizados, ninguno aporta información suficiente para reproducir el conjunto de datos que usó o creó.</span></li>
+      <li><b>101.975 muestras</b><span>El tamaño de MH-100K, con más de 24.500 características, ya publicado y en uso por un equipo técnico de Motorola.</span></li>
+      <li><b>85%</b><span>De los proyectos de aprendizaje automático fracasan, y las causas más citadas están en la cantidad, la calidad y la correspondencia de los datos con el mundo real.</span></li>
+    </ul>
+  </section>
+  <section aria-labelledby="roteiro">
+    <h2 class="section-title" id="roteiro">Guion</h2>
+    <ol class="outline">
+      <li><div><h3>El proceso típico de aprendizaje automático</h3><p>Cada etapa del pipeline exige un profundo conocimiento del dominio, la habilidad técnica para recolectar, limpiar, analizar y modelar los datos, y tiempo.</p></div></li>
+      <li><div><h3>AutoML: lo que promete automatizar</h3><p>Reducir la dependencia de especialistas y automatizar todo el pipeline, de la adquisición de datos a la búsqueda arquitectónica. Y las dos preguntas que quedan fuera: ¿hay optimización específica del dominio, y dónde está la transparencia?</p></div></li>
+      <li><div><h3>Conjuntos de datos: lo que la literatura no cuenta</h3><p>Treinta y ocho trabajos analizados en cuatro grupos. Más del 40% de los conjuntos con acceso restringido o no disponible, casi el 60% disponibles pero limitados o desactualizados, y ninguno con información suficiente para reproducirlos.</p></div></li>
+      <li><div><h3>Construir el propio conjunto de datos</h3><p>ADBuilder, AMGenerator y AMExplorer: descarga desde AndroZoo, extracción con Androguard, etiquetado vía VirusTotal, y el problema de la caché que devuelve una etiqueta vieja como si fuera nueva.</p></div></li>
+      <li><div><h3>Cuando la etiqueta envejece</h3><p>Dos aplicaciones clasificadas como benignas en 2019 y 2020 fueron señaladas como malware por más de 18 escáneres en 2022. El etiquetado necesita reanálisis, y el reanálisis no escala gratis.</p></div></li>
+      <li><div><h3>MH-100K y MH-1M</h3><p>Ciento un mil muestras y más de 24.500 características ya publicadas, y la generación de más de un millón en curso desde hace más de cinco meses, limitada por la tasa de reanálisis de VirusTotal.</p></div></li>
+      <li><div><h3>Datos sintéticos con IA generativa</h3><p>DroidAugmentor entrena y parametriza cGANs para aumentar y variar conjuntos de datos, con métricas de similitud y aplicabilidad. AutoDroid escala esa ejecución en microservicios sobre contenedores.</p></div></li>
+      <li><div><h3>Preprocesamiento y selección de características</h3><p>Dónde se rompen las herramientas de propósito general en este dominio, y FS3E, que evalúa nueve métodos de selección de características de forma sistemática y reproducible, en conjuntos balanceados y desbalanceados.</p></div></li>
+      <li><div><h3>Modelos, hiperparámetros y costo computacional</h3><p>El comportamiento empírico de los modelos a medida que crece el conjunto de datos, por qué Extra Trees salió mejor con menor costo, y el caso de AutoGluon, que rinde bien con hiperparámetros fijos.</p></div></li>
+      <li><div><h3>Transparencia e interpretabilidad</h3><p>El AutoML como caja negra, lo que MH-AutoML expone de lo que ocurrió dentro, y lo que muestran LIME y SHAP cuando el mismo estudio corre sobre varios conjuntos de datos.</p></div></li>
+      <li><div><h3>Ataques de cambio de etiqueta</h3><p>Label flipping aleatorio, por entropía y por silueta. Qué variante hace más daño, qué modelos aguantan mejor y qué conjuntos resultan menos susceptibles.</p></div></li>
+      <li><div><h3>El fin, o el inicio del medio</h3><p>Consideraciones finales: hay desafíos en todas las etapas del pipeline, y sin transparencia e interpretabilidad ni siquiera se pueden comparar las soluciones entre sí.</p></div></li>
+    </ol>
+  </section>
+</div>
+<div class="takeaways-band">
+  <section class="wrap" aria-labelledby="leva">
+    <h2 class="section-title" id="leva">Lo que te llevas</h2>
+    <ul class="takeaways">
+        <li>Investiga el conjunto de datos antes de confiar en él. Buena parte de lo publicado en el área no está disponible, está desactualizada o no es representativa.</li>
+        <li>Las etiquetas envejecen. Lo que era benigno en 2019 puede ser malware para decenas de escáneres tres años después.</li>
+        <li>Las herramientas de AutoML de propósito general fallan en dominios específicos. El preprocesamiento y la selección de características necesitan técnicas del propio dominio.</li>
+        <li>La transparencia y la interpretabilidad no son adorno. Sin ellas no se entiende el resultado ni se pueden comparar soluciones de AutoML.</li>
+    </ul>
+  </section>
+</div>
+<div class="wrap">
+  <section aria-labelledby="materiais">
+    <h2 class="section-title" id="materiais">Materiales</h2>
+    <ul class="files">
+      <li><a href="/files/tempest-academy-2023.pdf" download><span class="fmt">PDF</span><span>Diapositivas de la charla</span><span class="size">8,9 MB</span></a></li>
+      <li><a href="/files/tempest-academy-2023.pptx" download><span class="fmt">PPTX</span><span>Diapositivas de la charla</span><span class="size">12,5 MB</span></a></li>
+    </ul>
+  </section>
+  <section aria-labelledby="recursos">
+    <h2 class="section-title" id="recursos">Para explorar después</h2>
+    <ul class="links">
+      <li><a href="https://androzoo.uni.lu" rel="noopener">AndroZoo</a><p>Repositorio con más de 19 millones de APK, la fuente de descarga usada por ADBuilder.</p></li>
+      <li><a href="https://www.virustotal.com" rel="noopener">VirusTotal</a><p>Más de 60 escáneres. De ahí vienen las etiquetas, y es también el principal cuello de botella de la generación.</p></li>
+      <li><a href="https://github.com/androguard/androguard" rel="noopener">Androguard</a><p>Extracción de características estáticas de las aplicaciones, una de las herramientas más completas del tipo.</p></li>
+      <li><a href="https://github.com/shap/shap" rel="noopener">SHAP</a><p>Framework de explicación usado en el estudio de caso de interpretabilidad, con múltiples conjuntos de datos.</p></li>
+      <li><a href="https://github.com/marcotcr/lime" rel="noopener">LIME</a><p>Explicaciones locales independientes del modelo, el otro framework del estudio de caso.</p></li>
+      <li><a href="https://auto.gluon.ai" rel="noopener">AutoGluon</a><p>La herramienta de AutoML del caso de los hiperparámetros fijos, que rinde bien incluso sin optimización en tiempo de ejecución.</p></li>
+    </ul>
+  </section>
+</div>
+</main>
+<footer class="foot">
+  <div class="wrap foot__inner">
+    <p>Diego Kreutz</p>
+    <p><a href="mailto:diegokreutz@unipampa.edu.br">diegokreutz@unipampa.edu.br</a></p>
+    <p><a href="https://github.com/talks4all">GitHub</a></p>
+  </div>
+</footer>
+<script src="/assets/js/lang.js"></script>
+</body>
+</html>

@@ -4,6 +4,15 @@
   "date_iso": "2026-09-14",
   "downloads": [
     {
+      "file": "ia-no-seu-dia-urcamp.pdf",
+      "format": "PDF",
+      "label": {
+        "pt": "Slides da palestra",
+        "en": "Talk slides",
+        "es": "Diapositivas de la charla"
+      }
+    },
+    {
       "file": "ia-no-seu-dia-urcamp.pptx",
       "format": "PPTX",
       "label": {

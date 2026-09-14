@@ -11,6 +11,15 @@
         "en": "Talk slides",
         "es": "Diapositivas de la charla"
       }
+    },
+    {
+      "file": "pint-of-science-2026-work-redefined.pptx",
+      "format": "PPTX",
+      "label": {
+        "pt": "Slides da palestra",
+        "en": "Talk slides",
+        "es": "Diapositivas de la charla"
+      }
     }
   ],
   "resources": [

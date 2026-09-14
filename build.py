@@ -37,10 +37,10 @@ MONTHS = {
 
 
 def format_date(date_iso: str, lang: str) -> str:
-    """Formata 2026-05 como Maio de 2026 e 2026-09-14 como 14 de setembro de 2026."""
+    """Formata 2023 como 2023, 2026-05 como Maio de 2026 e 2026-09-14 como 14 de setembro de 2026."""
     parts = str(date_iso).split("-")
     if len(parts) < 2:
-        return str(date_iso)
+        return str(date_iso)  # só o ano
     year, month = parts[0], MONTHS[lang][int(parts[1]) - 1]
     if len(parts) == 2:
         return f"{month.capitalize()} {year}" if lang == "en" else f"{month.capitalize()} de {year}"
@@ -48,6 +48,9 @@ def format_date(date_iso: str, lang: str) -> str:
     if lang == "en":
         return f"{day} {month} {year}"
     return f"{day} de {month} de {year}"
+
+
+MISSING: set[str] = set()
 
 
 def esc(value: str) -> str:
@@ -294,6 +297,9 @@ def render_talk(site: dict, talk: dict, lang: str) -> str:
     if talk.get("downloads"):
         rows = []
         for d in talk["downloads"]:
+            if not (FILES / d["file"]).exists():
+                MISSING.add(f'{talk["slug"]}: files/{d["file"]}')
+                continue
             size = human_size(FILES / d["file"])
             rows.append(
                 f'      <li><a href="/files/{esc(d["file"])}" download>'
@@ -434,6 +440,9 @@ def main() -> None:
     write(ROOT / "sitemap.xml", render_sitemap(site, talks))
     write(ROOT / "robots.txt", f"User-agent: *\nAllow: /\nSitemap: {site['url']}/sitemap.xml\n")
     write(ROOT / ".nojekyll", "")
+
+    for item in sorted(MISSING):
+        print(f"  aviso: arquivo ausente, download omitido do site: {item}")
 
 
 if __name__ == "__main__":
