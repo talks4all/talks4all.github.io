@@ -98,8 +98,8 @@
           "label": "O trecho da LGPD que garante ao cidadão pedir revisão de uma decisão tomada por máquina."
         },
         {
-          "value": "15 minutos por dia",
-          "label": "O hábito que, mantido por trinta dias, muda mais que um curso de quarenta horas."
+          "value": "Duas IAs",
+          "label": "Pergunte o mesmo às duas e compare. Onde elas discordam é exatamente onde você precisa pensar."
         }
       ],
       "outline": [
@@ -148,8 +148,8 @@
           "text": "Três aplicações entregues em duas horas por alunos de primeiro semestre de Engenharia, e o que a disciplina precisou virar para que isso acontecesse. Não foi o aluno que ficou genial: foi o custo de produzir que despencou."
         },
         {
-          "title": "Quatro hábitos para começar amanhã de manhã",
-          "text": "Dar contexto, pedir três versões, verificar tudo que tem número ou fonte, e nunca entregar o que você não conseguiria defender sozinho."
+          "title": "Cinco hábitos para começar amanhã de manhã",
+          "text": "Dar contexto, pedir no mínimo três versões, nunca usar uma única IA e comparar a resposta de duas, verificar tudo que tem número, nome próprio ou fonte, e nunca entregar o que você não conseguiria defender sozinho."
         }
       ],
       "takeaways": [
@@ -157,7 +157,8 @@
         "A régua para automatizar não é a dificuldade da tarefa. É o custo do erro.",
         "O que passa a valer no currículo: saber perguntar, verificar, conhecer o contexto, decidir com dado incompleto e assinar embaixo.",
         "O erro não é comprar a ferramenta. É entregá-la a quem não sabe conferir o que ela devolve.",
-        "Use a IA para pensar mais, nunca para pensar menos."
+        "Use a IA para pensar mais, nunca para pensar menos.",
+        "Onde duas IAs discordam é exatamente onde você precisa pensar."
       ]
     },
     "en": {
@@ -188,8 +189,8 @@
           "label": "The clause of the Brazilian data protection law that lets a citizen ask for review of a decision made by a machine."
         },
         {
-          "value": "15 minutes a day",
-          "label": "The habit that, kept for thirty days, changes more than a forty hour course."
+          "value": "Two AIs",
+          "label": "Ask both the same question and compare. Where they disagree is exactly where you need to think."
         }
       ],
       "outline": [
@@ -238,8 +239,8 @@
           "text": "Three applications delivered in two hours by first semester engineering students, and what the course itself had to become for that to happen. The students did not suddenly become brilliant: the cost of producing collapsed."
         },
         {
-          "title": "Four habits to start tomorrow morning",
-          "text": "Give context, ask for three versions, verify anything with a number or a source, and never hand in what you could not defend on your own."
+          "title": "Five habits to start tomorrow morning",
+          "text": "Give context, ask for at least three versions, never rely on a single AI and compare the answers of two, verify anything with a number, a proper name or a source, and never hand in what you could not defend on your own."
         }
       ],
       "takeaways": [
@@ -247,7 +248,8 @@
         "The measure for automating is not how hard the task is. It is the cost of the error.",
         "What now counts on a CV: asking well, verifying, knowing the context, deciding on incomplete data, and signing your name to it.",
         "The mistake is not buying the tool. It is handing it to someone who cannot check what it gives back.",
-        "Use AI to think more, never to think less."
+        "Use AI to think more, never to think less.",
+        "Where two AIs disagree is exactly where you need to think."
       ]
     },
     "es": {
@@ -278,8 +280,8 @@
           "label": "El punto de la ley brasileña de protección de datos que permite al ciudadano pedir la revisión de una decisión tomada por una máquina."
         },
         {
-          "value": "15 minutos al día",
-          "label": "El hábito que, mantenido durante treinta días, cambia más que un curso de cuarenta horas."
+          "value": "Dos IAs",
+          "label": "Pregunta lo mismo a las dos y compara. Donde discrepan es exactamente donde necesitas pensar."
         }
       ],
       "outline": [
@@ -328,8 +330,8 @@
           "text": "Tres aplicaciones entregadas en dos horas por alumnos de primer semestre de Ingeniería, y en qué tuvo que convertirse la asignatura para que eso ocurriera. No fue que el alumno se volviera genial: fue el costo de producir el que se desplomó."
         },
         {
-          "title": "Cuatro hábitos para empezar mañana por la mañana",
-          "text": "Dar contexto, pedir tres versiones, verificar todo lo que tenga cifra o fuente, y nunca entregar lo que no podrías defender solo."
+          "title": "Cinco hábitos para empezar mañana por la mañana",
+          "text": "Dar contexto, pedir al menos tres versiones, nunca usar una sola IA y comparar la respuesta de dos, verificar todo lo que tenga cifra, nombre propio o fuente, y nunca entregar lo que no podrías defender solo."
         }
       ],
       "takeaways": [
@@ -337,7 +339,8 @@
         "La vara para automatizar no es lo difícil que sea la tarea. Es el costo del error.",
         "Lo que pasa a valer en el currículum: saber preguntar, verificar, conocer el contexto, decidir con datos incompletos y firmar debajo.",
         "El error no es comprar la herramienta. Es entregársela a quien no sabe revisar lo que devuelve.",
-        "Usa la IA para pensar más, nunca para pensar menos."
+        "Usa la IA para pensar más, nunca para pensar menos.",
+        "Donde dos IAs discrepan es exactamente donde necesitas pensar."
       ]
     }
   }
