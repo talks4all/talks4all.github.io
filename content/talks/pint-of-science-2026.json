@@ -1,0 +1,136 @@
+{
+  "slug": "pint-of-science-2026",
+  "order": 1,
+  "status": "upcoming",
+  "date_iso": "2026-05",
+  "year": "2026",
+  "downloads": [
+    {
+      "file": "pint-of-science-2026-work-redefined.pdf",
+      "format": "PDF",
+      "label": { "pt": "Slides da palestra", "en": "Talk slides", "es": "Diapositivas de la charla" }
+    }
+  ],
+  "resources": [
+    { "name": "ChatGPT", "url": "https://chat.openai.com", "note": { "pt": "Conta gratuita, para testar em uma tarefa real do seu trabalho.", "en": "Free account, to try on one real task from your own job.", "es": "Cuenta gratuita, para probar en una tarea real de tu trabajo." } },
+    { "name": "Gemini", "url": "https://gemini.google.com", "note": { "pt": "Alternativa do Google, com aplicativo no celular.", "en": "Google's alternative, with a mobile app.", "es": "La alternativa de Google, con aplicación para el móvil." } },
+    { "name": "Microsoft Copilot", "url": "https://copilot.microsoft.com", "note": { "pt": "Integrado ao Word, Excel e PowerPoint de quem já usa Office.", "en": "Built into Word, Excel and PowerPoint for anyone already on Office.", "es": "Integrado en Word, Excel y PowerPoint para quien ya usa Office." } },
+    { "name": "Grow with Google", "url": "https://grow.google", "note": { "pt": "Cursos gratuitos de nivelamento em inteligência artificial.", "en": "Free introductory courses on artificial intelligence.", "es": "Cursos gratuitos de nivelación en inteligencia artificial." } },
+    { "name": "Fundação Bradesco", "url": "https://www.ev.org.br", "note": { "pt": "Escola virtual com trilhas gratuitas de tecnologia e dados.", "en": "Virtual school with free tracks on technology and data.", "es": "Escuela virtual con itinerarios gratuitos de tecnología y datos." } },
+    { "name": "Embrapa", "url": "https://www.embrapa.br", "note": { "pt": "Pesquisa aplicada e agricultura de precisão no contexto brasileiro.", "en": "Applied research and precision agriculture in the Brazilian context.", "es": "Investigación aplicada y agricultura de precisión en el contexto brasileño." } },
+    { "name": "Solinftec", "url": "https://www.solinftec.com", "note": { "pt": "Exemplo de IA operando na lavoura, com robô autônomo no campo.", "en": "An example of AI running in the field, with autonomous farm robots.", "es": "Ejemplo de IA operando en el campo, con robots autónomos." } }
+  ],
+  "i18n": {
+    "pt": {
+      "title": "Sua profissão vai acabar com a IA",
+      "tagline": "Ou não. Depende de você.",
+      "event": "Pint of Science 2026",
+      "when": "Maio de 2026, data a confirmar",
+      "where": "Alegrete, Rio Grande do Sul",
+      "format": "Palestra de divulgação científica, cerca de 30 minutos, com perguntas do público",
+      "audience": "Aberta ao público, sem nenhum pré-requisito técnico",
+      "summary": [
+        "O Pint of Science leva ciência para o bar. Esta palestra leva para o balcão a pergunta que ninguém consegue mais adiar: o que a inteligência artificial faz com a sua profissão nos próximos cinco anos.",
+        "O percurso começa na linha do tempo que vai de 2022 a 2025, passa pelo que a IA realmente é e pelo que ela definitivamente não é, mede o efeito multiplicador com um caso real de dentro da UNIPAMPA e termina no que continua sendo humano: julgar, decidir e assinar embaixo.",
+        "Nada aqui exige saber programar. O recorte é a Fronteira Oeste: o agro que já usa drone e satélite, a indústria que já usa visão computacional e a universidade que ainda ensina como no século 20."
+      ],
+      "numbers": [
+        { "value": "128x", "label": "A diferença de produtividade entre seis pessoas trabalhando sete dias e um estudante com IA trabalhando duas horas, no mesmo problema." },
+        { "value": "5 dias", "label": "O tempo que o ChatGPT levou para chegar a um milhão de usuários, no fim de 2022." },
+        { "value": "97 milhões", "label": "Novos postos de trabalho projetados pelo Fórum Econômico Mundial, contra 85 milhões que deixam de existir." },
+        { "value": "R$ 29 milhões", "label": "O valor pago pelo iFood por uma startup de marketing construída com IA por um guri do interior de Minas Gerais." }
+      ],
+      "outline": [
+        { "title": "A pergunta não é se, é como e quando", "text": "De 2022 a 2025: o ChatGPT chega a um milhão de usuários em cinco dias, a IA passa na OAB e no vestibular, escreve código mais rápido que qualquer humano e começa a decidir em tempo real no campo." },
+        { "title": "O que a IA é, e o que ela não é", "text": "Leu praticamente tudo que já foi publicado, nunca esquece e não tira férias. Também alucina com convicção, não tem bom senso real e não é o robô humanoide do cinema." },
+        { "title": "Da biblioteca ao super tutor", "text": "Três eras de acesso ao conhecimento: a analógica até 2000, a digital até 2022 e a atual, em que o melhor tutor do mundo tem paciência infinita e custa zero." },
+        { "title": "O efeito multiplicador", "text": "Seis alunos em sete dias contra um aluno com IA em duas horas. E três aplicações entregues no primeiro semestre de Engenharia que seriam trabalho de conclusão há cinco anos." },
+        { "title": "O mercado em três faixas", "text": "Alto risco nos próximos cinco anos, transformação profunda e criação de áreas que não existiam. Onde cada profissão cai, e por quê." },
+        { "title": "O campo e a indústria daqui", "text": "Drone, satélite, sensor e irrigação inteligente na lavoura. Visão computacional no frigorífico e seleção óptica no beneficiamento de arroz." },
+        { "title": "A universidade do século 19", "text": "Alunos do século 21, ensinados por professores do século 20, em instituições do século 19, para um sistema do século 18. O que precisa mudar, e o que já mudou na prática." },
+        { "title": "O domínio humano", "text": "Pensamento crítico, ética e julgamento, empatia, criatividade contextual e colaboração interdisciplinar. As habilidades que não se aprendem em um curso de três horas." },
+        { "title": "Três degraus para começar", "text": "O que fazer hoje, de graça. O que fazer este ano, com pouco dinheiro. E o que construir no longo prazo, quando a vantagem deixa de ser a ferramenta." }
+      ],
+      "takeaways": [
+        "A IA não nivela o jogo. Ela amplia a distância entre quem usa bem e quem não usa.",
+        "Nenhuma profissão desaparece inteira. O que muda de mão é a tarefa, e quase sempre a repetitiva primeiro.",
+        "Gerar deixou de ser o diferencial. Escolher, verificar e assumir a decisão continuam sendo seus.",
+        "A melhor hora para se preparar era há cinco anos. A segunda melhor é agora."
+      ]
+    },
+    "en": {
+      "title": "AI is going to end your profession",
+      "tagline": "Or not. That part is up to you.",
+      "event": "Pint of Science 2026",
+      "when": "May 2026, exact date to be confirmed",
+      "where": "Alegrete, Rio Grande do Sul, Brazil",
+      "format": "Science outreach talk, around 30 minutes, followed by questions from the room",
+      "audience": "Open to everyone, no technical background required",
+      "summary": [
+        "Pint of Science takes science to the pub. This talk takes to the counter the question nobody can postpone any longer: what does artificial intelligence do to your profession over the next five years.",
+        "The route starts on the timeline from 2022 to 2025, goes through what AI really is and what it definitely is not, measures the multiplier effect with a real case from inside UNIPAMPA, and ends on what stays human: judging, deciding and signing your name to it.",
+        "None of it requires knowing how to code. The lens is the western frontier of Rio Grande do Sul: farming that already flies drones and reads satellites, industry that already runs computer vision, and a university still teaching the way it did in the twentieth century."
+      ],
+      "numbers": [
+        { "value": "128x", "label": "The productivity gap between six people working seven days and one student with AI working two hours, on the same problem." },
+        { "value": "5 days", "label": "How long ChatGPT took to reach one million users, in late 2022." },
+        { "value": "97 million", "label": "New jobs projected by the World Economic Forum, against 85 million that stop existing." },
+        { "value": "R$ 29 million", "label": "What iFood paid for a marketing startup built with AI by a young man from the countryside of Minas Gerais." }
+      ],
+      "outline": [
+        { "title": "The question is not if, it is how and when", "text": "From 2022 to 2025: ChatGPT reaches a million users in five days, AI passes the bar exam and the college entrance exam, writes code faster than any human, and starts deciding in real time out in the field." },
+        { "title": "What AI is, and what it is not", "text": "It has read almost everything ever published, never forgets and never takes a holiday. It also hallucinates with total confidence, has no real common sense, and is not the humanoid robot from the movies." },
+        { "title": "From the library to the super tutor", "text": "Three eras of access to knowledge: analogue until 2000, digital until 2022, and the current one, where the best tutor in the world has infinite patience and costs nothing." },
+        { "title": "The multiplier effect", "text": "Six students in seven days against one student with AI in two hours. Plus three applications delivered in the first semester of an engineering degree that would have been final year projects five years ago." },
+        { "title": "The job market in three bands", "text": "High risk over the next five years, deep transformation, and the creation of fields that did not exist. Where each profession lands, and why." },
+        { "title": "Farming and industry around here", "text": "Drones, satellites, soil sensors and smart irrigation in the fields. Computer vision in the meat plant and optical sorting in rice processing." },
+        { "title": "The nineteenth century university", "text": "Twenty first century students, taught by twentieth century teachers, in nineteenth century institutions, for an eighteenth century system. What has to change, and what has already changed in practice." },
+        { "title": "The human domain", "text": "Critical thinking, ethics and judgement, empathy, contextual creativity and interdisciplinary collaboration. The skills you cannot pick up in a three hour course." },
+        { "title": "Three steps to start", "text": "What to do today, for free. What to do this year, on a small budget. And what to build for the long run, once the tool stops being the advantage." }
+      ],
+      "takeaways": [
+        "AI does not level the playing field. It widens the gap between those who use it well and those who do not.",
+        "No profession disappears whole. What changes hands is the task, and the repetitive ones go first.",
+        "Producing a first draft is no longer the differentiator. Choosing, verifying and owning the decision still are.",
+        "The best time to prepare was five years ago. The second best time is now."
+      ]
+    },
+    "es": {
+      "title": "Tu profesión va a acabarse con la IA",
+      "tagline": "O no. Depende de ti.",
+      "event": "Pint of Science 2026",
+      "when": "Mayo de 2026, fecha por confirmar",
+      "where": "Alegrete, Rio Grande do Sul, Brasil",
+      "format": "Charla de divulgación científica, unos 30 minutos, con preguntas del público",
+      "audience": "Abierta a todo el mundo, sin ningún requisito técnico",
+      "summary": [
+        "Pint of Science lleva la ciencia al bar. Esta charla lleva a la barra la pregunta que ya nadie consigue aplazar: qué le hace la inteligencia artificial a tu profesión en los próximos cinco años.",
+        "El recorrido empieza en la línea de tiempo que va de 2022 a 2025, pasa por lo que la IA realmente es y por lo que definitivamente no es, mide el efecto multiplicador con un caso real de la UNIPAMPA y termina en lo que sigue siendo humano: juzgar, decidir y firmar debajo.",
+        "Nada de esto exige saber programar. El enfoque es la Frontera Oeste: el agro que ya usa dron y satélite, la industria que ya usa visión por computadora y la universidad que todavía enseña como en el siglo 20."
+      ],
+      "numbers": [
+        { "value": "128x", "label": "La diferencia de productividad entre seis personas trabajando siete días y un estudiante con IA trabajando dos horas, en el mismo problema." },
+        { "value": "5 días", "label": "Lo que tardó ChatGPT en llegar a un millón de usuarios, a finales de 2022." },
+        { "value": "97 millones", "label": "Nuevos puestos de trabajo proyectados por el Foro Económico Mundial, frente a 85 millones que dejan de existir." },
+        { "value": "R$ 29 millones", "label": "Lo que pagó iFood por una startup de marketing construida con IA por un joven del interior de Minas Gerais." }
+      ],
+      "outline": [
+        { "title": "La pregunta no es si, es cómo y cuándo", "text": "De 2022 a 2025: ChatGPT llega a un millón de usuarios en cinco días, la IA aprueba el examen de abogacía y el de acceso a la universidad, escribe código más rápido que cualquier humano y empieza a decidir en tiempo real en el campo." },
+        { "title": "Lo que la IA es, y lo que no es", "text": "Ha leído casi todo lo publicado, nunca olvida y no se toma vacaciones. También alucina con total convicción, no tiene sentido común real y no es el robot humanoide del cine." },
+        { "title": "De la biblioteca al súper tutor", "text": "Tres eras de acceso al conocimiento: la analógica hasta 2000, la digital hasta 2022 y la actual, en la que el mejor tutor del mundo tiene paciencia infinita y cuesta cero." },
+        { "title": "El efecto multiplicador", "text": "Seis alumnos en siete días frente a un alumno con IA en dos horas. Y tres aplicaciones entregadas en el primer semestre de Ingeniería que hace cinco años habrían sido trabajo de fin de carrera." },
+        { "title": "El mercado en tres franjas", "text": "Alto riesgo en los próximos cinco años, transformación profunda y creación de áreas que no existían. Dónde cae cada profesión, y por qué." },
+        { "title": "El campo y la industria de aquí", "text": "Dron, satélite, sensor y riego inteligente en el cultivo. Visión por computadora en el frigorífico y selección óptica en el procesamiento del arroz." },
+        { "title": "La universidad del siglo 19", "text": "Alumnos del siglo 21, enseñados por profesores del siglo 20, en instituciones del siglo 19, para un sistema del siglo 18. Qué tiene que cambiar, y qué ya cambió en la práctica." },
+        { "title": "El dominio humano", "text": "Pensamiento crítico, ética y juicio, empatía, creatividad contextual y colaboración interdisciplinar. Las habilidades que no se aprenden en un curso de tres horas." },
+        { "title": "Tres peldaños para empezar", "text": "Qué hacer hoy, gratis. Qué hacer este año, con poco dinero. Y qué construir a largo plazo, cuando la ventaja deja de ser la herramienta." }
+      ],
+      "takeaways": [
+        "La IA no iguala el juego. Amplía la distancia entre quien la usa bien y quien no la usa.",
+        "Ninguna profesión desaparece entera. Lo que cambia de manos es la tarea, y casi siempre la repetitiva primero.",
+        "Generar dejó de ser el diferencial. Elegir, verificar y asumir la decisión siguen siendo tuyos.",
+        "El mejor momento para prepararse era hace cinco años. El segundo mejor es ahora."
+      ]
+    }
+  }
+}

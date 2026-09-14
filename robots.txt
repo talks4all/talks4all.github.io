@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://talks4all.github.io/sitemap.xml

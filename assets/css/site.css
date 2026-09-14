@@ -1,0 +1,305 @@
+/* talks4all: papel branco, tinta quente, dourado do próprio material das palestras. */
+
+:root {
+  --paper: #ffffff;
+  --paper-sunk: #faf7f1;
+  --ink: #17130e;
+  --ink-soft: #4b433a;
+  --ink-mute: #7d7367;
+  --rule: #e6e0d5;
+  --rule-strong: #cec5b5;
+  --gold: #d19a1c;
+  --gold-ink: #8a5c00;
+  --gold-wash: #fdf6e6;
+
+  --gutter: clamp(1.25rem, 5vw, 4.5rem);
+  --measure: 36em;
+
+  --display: "Familjen Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --text: "Source Serif 4", Georgia, "Times New Roman", serif;
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #14120f;
+    --paper-sunk: #1b1814;
+    --ink: #f6f2ea;
+    --ink-soft: #cfc7ba;
+    --ink-mute: #968d80;
+    --rule: #302b25;
+    --rule-strong: #473f35;
+    --gold: #e2ad3c;
+    --gold-ink: #edc164;
+    --gold-wash: #221c11;
+    color-scheme: dark;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--text);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  font-optical-sizing: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, .display { font-family: var(--display); font-weight: 600; line-height: 1.05; letter-spacing: -0.02em; margin: 0; }
+
+p { margin: 0 0 1.1em; }
+p:last-child { margin-bottom: 0; }
+
+a { color: inherit; }
+
+:focus-visible { outline: 2px solid var(--gold-ink); outline-offset: 3px; border-radius: 2px; }
+
+.wrap { max-width: 72rem; margin-inline: auto; padding-inline: var(--gutter); }
+.measure { max-width: var(--measure); }
+
+.skip {
+  position: absolute; left: -9999px; top: 0;
+  background: var(--ink); color: var(--paper);
+  padding: 0.6rem 1rem; font-family: var(--display); z-index: 50;
+}
+.skip:focus { left: 0; }
+
+/* ---------- topo ---------- */
+
+.masthead {
+  position: sticky; top: 0; z-index: 20;
+  background: var(--paper);
+  background: color-mix(in srgb, var(--paper) 88%, transparent);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--rule);
+}
+.masthead__inner {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 1rem; min-height: 3.5rem;
+}
+.wordmark {
+  font-family: var(--display); font-weight: 700; font-size: 1.0625rem;
+  letter-spacing: -0.03em; text-decoration: none;
+}
+.wordmark b { color: var(--gold-ink); font-weight: inherit; }
+
+.langs { display: flex; align-items: center; gap: 0.9rem; }
+.langs a {
+  font-family: var(--display); font-size: 0.8125rem; font-weight: 500;
+  letter-spacing: 0.04em; text-decoration: none; color: var(--ink-mute);
+  padding-block: 0.15rem; border-bottom: 2px solid transparent;
+}
+.langs a:hover { color: var(--ink); }
+.langs a[aria-current="true"] { color: var(--ink); border-bottom-color: var(--gold); }
+
+/* ---------- blocos ---------- */
+
+.hero { padding-block: clamp(3.25rem, 8vw, 6rem) clamp(1.25rem, 3vw, 2rem); }
+
+.hero__title {
+  font-size: clamp(2.1rem, 1.1rem + 4vw, 3.9rem);
+  letter-spacing: -0.03em;
+  max-width: 18ch;
+}
+.hero__lede {
+  margin-top: 1.6rem; max-width: var(--measure);
+  font-size: clamp(1.05rem, 1rem + 0.35vw, 1.25rem);
+  color: var(--ink-soft);
+}
+
+section { padding-block: clamp(2.5rem, 5vw, 3.75rem); }
+section + section { border-top: 1px solid var(--rule); }
+
+.section-title {
+  font-size: 0.8125rem; font-weight: 500; letter-spacing: 0.02em;
+  color: var(--ink-mute); font-family: var(--display);
+  margin-bottom: 1.75rem;
+}
+
+/* ---------- lista de palestras ---------- */
+
+.talks { list-style: none; margin: 0; padding: 0; }
+
+.talk {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start; gap: 0.75rem 2rem;
+  padding-block: clamp(1.75rem, 4vw, 2.5rem);
+  border-top: 1px solid var(--rule);
+  text-decoration: none; position: relative;
+}
+
+.talk::before {
+  content: ""; position: absolute; left: -1rem; top: -1px; bottom: 0; width: 2px;
+  background: var(--gold); transform: scaleY(0); transform-origin: top;
+  transition: transform 260ms cubic-bezier(0.2, 0.7, 0.3, 1);
+}
+.talk:hover::before, .talk:focus-visible::before { transform: scaleY(1); }
+
+.talk__event { font-style: italic; color: var(--ink-mute); font-size: 0.95rem; margin: 0 0 0.35rem; }
+.talk__title {
+  font-size: clamp(1.6rem, 1.1rem + 1.9vw, 2.6rem);
+  letter-spacing: -0.025em; margin: 0;
+}
+.talk:hover .talk__title { color: var(--gold-ink); }
+.talk__tagline { font-style: italic; color: var(--ink-soft); margin: 0.5rem 0 0; max-width: 40ch; }
+
+.talk__aside {
+  font-family: var(--display); font-size: 0.8125rem; color: var(--ink-mute);
+  text-align: right; line-height: 1.5; white-space: nowrap;
+}
+.talk__year { display: block; color: var(--ink); font-size: 1rem; }
+
+/* ---------- quem apresenta ---------- */
+
+.about { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: clamp(1.5rem, 4vw, 4rem); }
+.about p { color: var(--ink-soft); }
+
+.contact { list-style: none; margin: 0; padding: 0; font-family: var(--display); font-size: 0.9375rem; }
+.contact li { padding-block: 0.4rem; border-top: 1px solid var(--rule); }
+.contact li:last-child { border-bottom: 1px solid var(--rule); }
+.contact a { text-decoration-color: var(--rule-strong); text-underline-offset: 0.2em; }
+.contact a:hover { color: var(--gold-ink); }
+
+/* ---------- página da palestra ---------- */
+
+.backlink {
+  display: inline-block; margin-top: clamp(1.75rem, 4vw, 3rem);
+  font-family: var(--display); font-size: 0.875rem; color: var(--ink-mute);
+  text-decoration: none;
+}
+.backlink:hover { color: var(--gold-ink); }
+.backlink::before { content: "\2190"; margin-right: 0.5em; }
+
+.talk-hero { padding-block: clamp(1.75rem, 4vw, 2.75rem) clamp(2.5rem, 6vw, 4rem); }
+.talk-hero__event { font-style: italic; color: var(--gold-ink); margin: 0 0 1rem; }
+.talk-hero__title {
+  font-size: clamp(2.4rem, 1rem + 6vw, 5.2rem);
+  line-height: 0.98; letter-spacing: -0.035em; max-width: 15ch;
+}
+.talk-hero__tagline {
+  margin: 1.5rem 0 0; padding-left: 1rem; border-left: 2px solid var(--gold);
+  font-style: italic; font-size: clamp(1.2rem, 1rem + 0.9vw, 1.75rem);
+  line-height: 1.4; color: var(--ink-soft); max-width: 28ch;
+}
+
+.meta {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  gap: 1.5rem 2rem; margin: 0;
+  padding: clamp(1.5rem, 3.5vw, 2.25rem) 0 0;
+  border-top: 1px solid var(--rule-strong);
+}
+.meta dt {
+  font-family: var(--display); font-size: 0.75rem; letter-spacing: 0.03em;
+  color: var(--ink-mute); margin-bottom: 0.3rem;
+}
+.meta dd { margin: 0; font-size: 0.9875rem; line-height: 1.5; }
+
+.prose { max-width: var(--measure); color: var(--ink-soft); font-size: 1.09rem; }
+.prose p + p { margin-top: 0; }
+
+/* ---------- números ---------- */
+
+.numbers {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 2rem;
+}
+.numbers li { border-top: 2px solid var(--gold); padding-top: 0.9rem; }
+.numbers b {
+  display: block; font-family: var(--display); font-weight: 600;
+  font-size: clamp(1.6rem, 1.2rem + 1.4vw, 2.25rem);
+  letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 0.5rem;
+}
+.numbers span { font-size: 0.9375rem; color: var(--ink-soft); line-height: 1.55; }
+
+/* ---------- roteiro ---------- */
+
+.outline { list-style: none; margin: 0; padding: 0; counter-reset: step; }
+.outline li {
+  counter-increment: step;
+  display: grid; grid-template-columns: 3rem minmax(0, 1fr); gap: 0 1rem;
+  padding-block: 1.35rem; border-top: 1px solid var(--rule);
+}
+.outline li:last-child { border-bottom: 1px solid var(--rule); }
+.outline li::before {
+  content: counter(step, decimal-leading-zero);
+  font-family: var(--display); font-size: 0.875rem; color: var(--gold-ink);
+  padding-top: 0.3rem;
+}
+.outline h3 { font-size: 1.15rem; letter-spacing: -0.015em; }
+.outline p { margin: 0.4rem 0 0; color: var(--ink-soft); font-size: 1rem; max-width: 52ch; }
+
+/* ---------- o que você leva ---------- */
+
+.takeaways-band { background: var(--gold-wash); border-block: 1px solid var(--rule); }
+.takeaways { list-style: none; margin: 0; padding: 0; display: grid; gap: 1.35rem; max-width: 48em; }
+.takeaways li {
+  padding-left: 1.15rem; border-left: 2px solid var(--gold);
+  font-size: clamp(1.05rem, 1rem + 0.3vw, 1.2rem); line-height: 1.55;
+}
+
+/* ---------- materiais e recursos ---------- */
+
+.files { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.75rem; max-width: 40em; }
+.files a {
+  display: flex; align-items: baseline; gap: 0.9rem;
+  padding: 0.9rem 1.1rem; border: 1px solid var(--rule-strong); border-radius: 6px;
+  text-decoration: none;
+}
+.files a:hover { border-color: var(--gold); background: var(--paper-sunk); }
+.files .fmt {
+  font-family: var(--display); font-size: 0.6875rem; letter-spacing: 0.06em;
+  color: var(--gold-ink); border: 1px solid var(--gold); border-radius: 3px;
+  padding: 0.1rem 0.35rem; flex: none;
+}
+.files .size { margin-left: auto; font-family: var(--display); font-size: 0.8125rem; color: var(--ink-mute); flex: none; }
+
+.links { list-style: none; margin: 0; padding: 0; max-width: 48em; }
+.links li { padding-block: 1rem; border-top: 1px solid var(--rule); }
+.links li:last-child { border-bottom: 1px solid var(--rule); }
+.links a { font-family: var(--display); font-weight: 500; text-decoration-color: var(--rule-strong); text-underline-offset: 0.2em; }
+.links a:hover { color: var(--gold-ink); }
+.links p { margin: 0.25rem 0 0; color: var(--ink-soft); font-size: 0.9375rem; }
+
+/* ---------- rodapé ---------- */
+
+.foot { border-top: 1px solid var(--rule); padding-block: 2.5rem 3.5rem; color: var(--ink-mute); font-size: 0.875rem; }
+.foot__inner { display: flex; flex-wrap: wrap; gap: 0.75rem 2rem; justify-content: space-between; }
+.foot a { text-underline-offset: 0.2em; }
+.foot a:hover { color: var(--gold-ink); }
+
+/* ---------- escolha de idioma (raiz) ---------- */
+
+.gate { min-height: 100svh; display: grid; place-content: center; text-align: center; gap: 1.75rem; padding: 2rem; }
+.gate ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; }
+.gate a { font-family: var(--display); font-size: 1.25rem; text-underline-offset: 0.25em; }
+
+/* ---------- entrada do herói ---------- */
+
+@media (prefers-reduced-motion: no-preference) {
+  .rise { animation: rise 700ms cubic-bezier(0.2, 0.7, 0.3, 1) both; }
+  .rise:nth-child(2) { animation-delay: 90ms; }
+  .rise:nth-child(3) { animation-delay: 160ms; }
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(0.75rem); }
+    to { opacity: 1; transform: none; }
+  }
+}
+
+/* ---------- telas estreitas ---------- */
+
+@media (max-width: 46rem) {
+  .about { grid-template-columns: 1fr; }
+  .talk { grid-template-columns: 1fr; }
+  .talk__aside { text-align: left; }
+  .talk__year { display: inline; }
+  .outline li { grid-template-columns: 2.25rem minmax(0, 1fr); }
+  .talk::before { left: -0.6rem; }
+}

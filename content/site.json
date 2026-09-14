@@ -1,0 +1,119 @@
+{
+  "name": "talks4all",
+  "url": "https://talks4all.github.io",
+  "languages": [
+    "pt",
+    "en",
+    "es"
+  ],
+  "default_language": "pt",
+  "language_names": {
+    "pt": "Português",
+    "en": "English",
+    "es": "Español"
+  },
+  "language_locales": {
+    "pt": "pt-BR",
+    "en": "en",
+    "es": "es"
+  },
+  "speaker": {
+    "name": "Diego Kreutz",
+    "email": "diegokreutz@unipampa.edu.br",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/talks4all"
+      }
+    ]
+  },
+  "i18n": {
+    "pt": {
+      "site_description": "Palestras sobre inteligência artificial: slides, resumos e materiais, em português, inglês e espanhol.",
+      "home_title": "Palestras sobre inteligência artificial, abertas a quem quiser assistir.",
+      "home_lede": "Este é o arquivo público das palestras de Diego Kreutz sobre o que a inteligência artificial já está mudando no trabalho, na sala de aula e na Fronteira Oeste do Rio Grande do Sul. Cada palestra traz o resumo, o roteiro, os números citados e os slides para baixar.",
+      "talks_heading": "Palestras",
+      "speaker_heading": "Quem apresenta",
+      "speaker_bio": "Diego Kreutz é pesquisador e professor da UNIPAMPA, no Campus Alegrete. Trabalha com sistemas, dados e segurança, e leva para fora da universidade a discussão sobre o que a inteligência artificial muda no trabalho de quem não programa.",
+      "contact_heading": "Contato",
+      "back_to_talks": "Todas as palestras",
+      "about_heading": "Sobre a palestra",
+      "numbers_heading": "Em números",
+      "outline_heading": "Roteiro",
+      "takeaways_heading": "O que você leva",
+      "downloads_heading": "Materiais",
+      "resources_heading": "Para explorar depois",
+      "meta_when": "Quando",
+      "meta_where": "Onde",
+      "meta_format": "Formato",
+      "meta_audience": "Público",
+      "meta_host": "Anfitrião",
+      "language_heading": "Idioma",
+      "skip_to_content": "Ir para o conteúdo",
+      "status_upcoming": "Programada",
+      "status_past": "Já realizada",
+      "choose_language": "Escolha o idioma",
+      "not_found_title": "Página não encontrada",
+      "not_found_text": "O endereço que você abriu não existe neste site.",
+      "not_found_link": "Ir para a página inicial"
+    },
+    "en": {
+      "site_description": "Public talks on artificial intelligence: slides, summaries and materials, in Portuguese, English and Spanish.",
+      "home_title": "Public talks on artificial intelligence, open to anyone who wants to listen.",
+      "home_lede": "This is the public archive of Diego Kreutz's talks on what artificial intelligence is already changing at work, in the classroom and across the western frontier of Rio Grande do Sul, Brazil. Every talk comes with a summary, the running order, the figures quoted on stage and the slides to download.",
+      "talks_heading": "Talks",
+      "speaker_heading": "The speaker",
+      "speaker_bio": "Diego Kreutz is a researcher and professor at UNIPAMPA, Alegrete campus, in southern Brazil. He works on systems, data and security, and takes the discussion about what artificial intelligence changes for people who do not write code outside the university walls.",
+      "contact_heading": "Contact",
+      "back_to_talks": "All talks",
+      "about_heading": "About this talk",
+      "numbers_heading": "In numbers",
+      "outline_heading": "Running order",
+      "takeaways_heading": "What you take home",
+      "downloads_heading": "Materials",
+      "resources_heading": "Where to go next",
+      "meta_when": "When",
+      "meta_where": "Where",
+      "meta_format": "Format",
+      "meta_audience": "Audience",
+      "meta_host": "Host",
+      "language_heading": "Language",
+      "skip_to_content": "Skip to content",
+      "status_upcoming": "Scheduled",
+      "status_past": "Already delivered",
+      "choose_language": "Choose a language",
+      "not_found_title": "Page not found",
+      "not_found_text": "The address you opened does not exist on this site.",
+      "not_found_link": "Go to the home page"
+    },
+    "es": {
+      "site_description": "Charlas sobre inteligencia artificial: diapositivas, resúmenes y materiales, en portugués, inglés y español.",
+      "home_title": "Charlas sobre inteligencia artificial, abiertas a quien quiera escuchar.",
+      "home_lede": "Este es el archivo público de las charlas de Diego Kreutz sobre lo que la inteligencia artificial ya está cambiando en el trabajo, en el aula y en la Frontera Oeste de Rio Grande do Sul, en el sur de Brasil. Cada charla trae el resumen, el guion, las cifras citadas y las diapositivas para descargar.",
+      "talks_heading": "Charlas",
+      "speaker_heading": "Quién presenta",
+      "speaker_bio": "Diego Kreutz es investigador y profesor de la UNIPAMPA, Campus Alegrete, en el sur de Brasil. Trabaja con sistemas, datos y seguridad, y lleva fuera de la universidad la discusión sobre lo que la inteligencia artificial cambia en el trabajo de quien no programa.",
+      "contact_heading": "Contacto",
+      "back_to_talks": "Todas las charlas",
+      "about_heading": "Sobre la charla",
+      "numbers_heading": "En cifras",
+      "outline_heading": "Guion",
+      "takeaways_heading": "Lo que te llevas",
+      "downloads_heading": "Materiales",
+      "resources_heading": "Para explorar después",
+      "meta_when": "Cuándo",
+      "meta_where": "Dónde",
+      "meta_format": "Formato",
+      "meta_audience": "Público",
+      "meta_host": "Anfitrión",
+      "language_heading": "Idioma",
+      "skip_to_content": "Ir al contenido",
+      "status_upcoming": "Programada",
+      "status_past": "Ya realizada",
+      "choose_language": "Elige el idioma",
+      "not_found_title": "Página no encontrada",
+      "not_found_text": "La dirección que abriste no existe en este sitio.",
+      "not_found_link": "Ir a la página de inicio"
+    }
+  }
+}

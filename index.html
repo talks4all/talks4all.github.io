@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>talks4all</title>
+  <meta name="description" content="Palestras sobre inteligência artificial: slides, resumos e materiais, em português, inglês e espanhol.">
+  <link rel="canonical" href="https://talks4all.github.io/pt/">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..600;1,8..60,400..600&display=swap">
+  <link rel="stylesheet" href="/assets/css/site.css">
+  <script>
+    (function () {
+      var supported = ["pt", "en", "es"];
+      var stored = null;
+      try { stored = localStorage.getItem("talks4all:lang"); } catch (e) {}
+      var wanted = [stored].concat(navigator.languages || [navigator.language || ""]);
+      for (var i = 0; i < wanted.length; i++) {
+        var code = String(wanted[i] || "").slice(0, 2).toLowerCase();
+        if (supported.indexOf(code) !== -1) { location.replace("/" + code + "/"); return; }
+      }
+      location.replace("/pt/");
+    })();
+  </script>
+</head>
+<body>
+  <main class="gate">
+    <h1 class="display">talks<b style="color:var(--gold-ink)">4</b>all</h1>
+    <p>Escolha o idioma</p>
+    <ul>
+    <li><a href="/pt/" lang="pt-BR">Português</a></li>
+    <li><a href="/en/" lang="en">English</a></li>
+    <li><a href="/es/" lang="es">Español</a></li>
+    </ul>
+  </main>
+</body>
+</html>
