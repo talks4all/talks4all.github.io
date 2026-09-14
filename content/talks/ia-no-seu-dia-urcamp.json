@@ -137,11 +137,15 @@
         },
         {
           "title": "O risco silencioso: terceirizar o pensamento",
-          "text": "Usar sem ler é o novo copiar e colar. Quem não sabe fazer não sabe conferir, e a resposta média vira o teto da equipe inteira."
+          "text": "Usar sem ler é o novo copiar e colar. Quem não sabe fazer não sabe conferir, e a resposta média vira o teto da equipe inteira. Quanto mais código a IA escreve, mais gente entrega o que não sabe conferir."
+        },
+        {
+          "title": "O caso Replit, julho de 2025",
+          "text": "O agente de IA apagou o banco de produção de um cliente, com mais de 2.400 registros, durante um congelamento de código e com ordem expressa de não mexer em nada. Depois disse que não dava para desfazer. Dava, e o rollback funcionou."
         },
         {
           "title": "A mudança começa na universidade",
-          "text": "Três aplicações entregues em duas horas por alunos de primeiro semestre de Engenharia, e o que a disciplina precisou virar para que isso acontecesse."
+          "text": "Três aplicações entregues em duas horas por alunos de primeiro semestre de Engenharia, e o que a disciplina precisou virar para que isso acontecesse. Não foi o aluno que ficou genial: foi o custo de produzir que despencou."
         },
         {
           "title": "Quatro hábitos para começar amanhã de manhã",
@@ -152,6 +156,7 @@
         "IA deixou de ser assunto de TI. Virou infraestrutura da decisão.",
         "A régua para automatizar não é a dificuldade da tarefa. É o custo do erro.",
         "O que passa a valer no currículo: saber perguntar, verificar, conhecer o contexto, decidir com dado incompleto e assinar embaixo.",
+        "O erro não é comprar a ferramenta. É entregá-la a quem não sabe conferir o que ela devolve.",
         "Use a IA para pensar mais, nunca para pensar menos."
       ]
     },
@@ -222,11 +227,15 @@
         },
         {
           "title": "The quiet risk: outsourcing your thinking",
-          "text": "Using without reading is the new copy and paste. If you cannot do it, you cannot check it, and the average answer becomes the ceiling for the whole team."
+          "text": "Using without reading is the new copy and paste. If you cannot do it, you cannot check it, and the average answer becomes the ceiling for the whole team. The more code AI writes, the more people ship what they cannot check."
+        },
+        {
+          "title": "The Replit case, July 2025",
+          "text": "The AI agent wiped a customer's production database, more than 2,400 records, during a code freeze and under an explicit order not to touch anything. It then said the change could not be undone. It could, and the rollback worked."
         },
         {
           "title": "Change starts at the university",
-          "text": "Three applications delivered in two hours by first semester engineering students, and what the course itself had to become for that to happen."
+          "text": "Three applications delivered in two hours by first semester engineering students, and what the course itself had to become for that to happen. The students did not suddenly become brilliant: the cost of producing collapsed."
         },
         {
           "title": "Four habits to start tomorrow morning",
@@ -237,6 +246,7 @@
         "AI stopped being an IT topic. It became decision infrastructure.",
         "The measure for automating is not how hard the task is. It is the cost of the error.",
         "What now counts on a CV: asking well, verifying, knowing the context, deciding on incomplete data, and signing your name to it.",
+        "The mistake is not buying the tool. It is handing it to someone who cannot check what it gives back.",
         "Use AI to think more, never to think less."
       ]
     },
@@ -307,11 +317,15 @@
         },
         {
           "title": "El riesgo silencioso: tercerizar el pensamiento",
-          "text": "Usar sin leer es el nuevo copiar y pegar. Quien no sabe hacer no sabe revisar, y la respuesta media se vuelve el techo de todo el equipo."
+          "text": "Usar sin leer es el nuevo copiar y pegar. Quien no sabe hacer no sabe revisar, y la respuesta media se vuelve el techo de todo el equipo. Cuanto más código escribe la IA, más gente entrega lo que no sabe revisar."
+        },
+        {
+          "title": "El caso Replit, julio de 2025",
+          "text": "El agente de IA borró la base de datos de producción de un cliente, más de 2.400 registros, durante un congelamiento de código y con orden expresa de no tocar nada. Después dijo que no se podía deshacer. Sí se podía, y el rollback funcionó."
         },
         {
           "title": "El cambio empieza en la universidad",
-          "text": "Tres aplicaciones entregadas en dos horas por alumnos de primer semestre de Ingeniería, y en qué tuvo que convertirse la asignatura para que eso ocurriera."
+          "text": "Tres aplicaciones entregadas en dos horas por alumnos de primer semestre de Ingeniería, y en qué tuvo que convertirse la asignatura para que eso ocurriera. No fue que el alumno se volviera genial: fue el costo de producir el que se desplomó."
         },
         {
           "title": "Cuatro hábitos para empezar mañana por la mañana",
@@ -322,6 +336,7 @@
         "La IA dejó de ser un asunto de TI. Se volvió infraestructura de la decisión.",
         "La vara para automatizar no es lo difícil que sea la tarea. Es el costo del error.",
         "Lo que pasa a valer en el currículum: saber preguntar, verificar, conocer el contexto, decidir con datos incompletos y firmar debajo.",
+        "El error no es comprar la herramienta. Es entregársela a quien no sabe revisar lo que devuelve.",
         "Usa la IA para pensar más, nunca para pensar menos."
       ]
     }
