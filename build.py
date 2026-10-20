@@ -12,11 +12,13 @@ from __future__ import annotations
 import html
 import json
 import shutil
+import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 CONTENT = ROOT / "content"
 FILES = ROOT / "files"
+THUMBS = ROOT / "assets" / "thumbs"
 
 FONTS = (
     "https://fonts.googleapis.com/css2"
@@ -72,6 +74,29 @@ def sort_key(talk: dict) -> tuple[str, str]:
     while len(parts) < 3:
         parts.append("00")
     return ("-".join(f"{p:0>2}" for p in parts), talk["slug"])
+
+
+def thumbnail(talk: dict) -> str | None:
+    """Miniatura do primeiro slide, gerada do PDF com o pdftoppm (Poppler).
+
+    A imagem só é refeita quando falta ou quando o PDF é mais novo. Sem PDF ou
+    sem pdftoppm, vale a miniatura que já estiver em assets/thumbs/, se houver.
+    """
+    target = THUMBS / f"{talk['slug']}.jpg"
+    pdfs = [FILES / d["file"] for d in talk.get("downloads", []) if d["format"] == "PDF"]
+    pdf = next((p for p in pdfs if p.exists()), None)
+    if pdf and (not target.exists() or target.stat().st_mtime < pdf.stat().st_mtime):
+        if shutil.which("pdftoppm"):
+            THUMBS.mkdir(parents=True, exist_ok=True)
+            subprocess.run(
+                ["pdftoppm", "-jpeg", "-jpegopt", "quality=85", "-f", "1", "-l", "1",
+                 "-scale-to", "720", "-singlefile", str(pdf), str(target.with_suffix(""))],
+                check=True,
+            )
+            print("  ", target.relative_to(ROOT))
+        else:
+            MISSING.add(f'{talk["slug"]}: miniatura (instale o Poppler para gerar)')
+    return f"/assets/thumbs/{target.name}" if target.exists() else None
 
 
 def load_content() -> tuple[dict, list[dict]]:
@@ -175,7 +200,12 @@ def render_home(site: dict, talks: list[dict], lang: str) -> str:
     for talk in talks:
         c = talk["i18n"][lang]
         status = t["status_upcoming"] if talk.get("status") == "upcoming" else t["status_past"]
-        rows.append(f"""    <li><a class="talk" href="/{lang}/{talk['slug']}/">
+        thumb = thumbnail(talk)
+        img = (
+            f'\n      <img class="talk__thumb" src="{esc(thumb)}" alt="" width="720" height="405" loading="lazy">'
+            if thumb else ""
+        )
+        rows.append(f"""    <li><a class="talk{' talk--thumb' if thumb else ''}" href="/{lang}/{talk['slug']}/">{img}
       <div>
         <p class="talk__event">{esc(c['event'])}</p>
         <h3 class="talk__title">{esc(c['title'])}</h3>

@@ -137,6 +137,12 @@ section + section { border-top: 1px solid var(--rule); }
   text-decoration: none; position: relative;
 }
 
+.talk--thumb { grid-template-columns: clamp(9rem, 22vw, 14rem) minmax(0, 1fr) auto; }
+.talk__thumb {
+  display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover;
+  border: 1px solid var(--rule); background: #fff;
+}
+
 .talk::before {
   content: ""; position: absolute; left: -1rem; top: -1px; bottom: 0; width: 2px;
   background: var(--gold); transform: scaleY(0); transform-origin: top;
@@ -298,7 +304,8 @@ section + section { border-top: 1px solid var(--rule); }
 
 @media (max-width: 46rem) {
   .about { grid-template-columns: 1fr; }
-  .talk { grid-template-columns: 1fr; }
+  .talk, .talk--thumb { grid-template-columns: 1fr; }
+  .talk__thumb { max-width: 22rem; }
   .talk__aside { text-align: left; }
   .outline li { grid-template-columns: 2.25rem minmax(0, 1fr); }
   .talk::before { left: -0.6rem; }

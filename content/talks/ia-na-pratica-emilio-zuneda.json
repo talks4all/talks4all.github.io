@@ -1,0 +1,389 @@
+{
+  "slug": "ia-na-pratica-emilio-zuneda",
+  "status": "upcoming",
+  "date_iso": "2026-10-20",
+  "downloads": [
+    {
+      "file": "ia-na-pratica-EmilioZuneda.pdf",
+      "format": "PDF",
+      "label": {
+        "pt": "Slides da palestra",
+        "en": "Talk slides",
+        "es": "Diapositivas de la charla"
+      }
+    },
+    {
+      "file": "ia-na-pratica-EmilioZuneda.pptx",
+      "format": "PPTX",
+      "label": {
+        "pt": "Slides da palestra",
+        "en": "Talk slides",
+        "es": "Diapositivas de la charla"
+      }
+    }
+  ],
+  "resources": [
+    {
+      "name": "Radical, versão 1 (MP3)",
+      "url": "/musicas/emilio_zuneda/radical_v1.mp3",
+      "note": {
+        "pt": "Música criada com IA para esta palestra.",
+        "en": "A song created with AI for this talk.",
+        "es": "Canción creada con IA para esta charla."
+      }
+    },
+    {
+      "name": "Radical, versão 2 (MP3)",
+      "url": "/musicas/emilio_zuneda/radical_v2.mp3",
+      "note": {
+        "pt": "Mesmo pedido, outro resultado.",
+        "en": "Same request, a different result.",
+        "es": "El mismo pedido, otro resultado."
+      }
+    },
+    {
+      "name": "Radical, versão 3 (MP3)",
+      "url": "/musicas/emilio_zuneda/radical_v3.mp3",
+      "note": {
+        "pt": "A melhor das três: com som real de banjo no meio da música.",
+        "en": "The best of the three: with a real banjo sound in the middle of the song.",
+        "es": "La mejor de las tres: con sonido real de banjo en medio de la canción."
+      }
+    },
+    {
+      "name": "O contador, em desenho animado (MP4)",
+      "url": "/videos/emilio_zuneda/contador_cartoon_narrado.mp4",
+      "note": {
+        "pt": "Roteiro, imagens e narração gerados com IA.",
+        "en": "Script, images and narration generated with AI.",
+        "es": "Guion, imágenes y narración generados con IA."
+      }
+    },
+    {
+      "name": "O contador, em estilo clean (MP4)",
+      "url": "/videos/emilio_zuneda/contador_clean_narrado.mp4",
+      "note": {
+        "pt": "Mesmo roteiro, visual mais sóbrio.",
+        "en": "Same script, a more sober look.",
+        "es": "El mismo guion, con un estilo más sobrio."
+      }
+    },
+    {
+      "name": "slides4all.github.io",
+      "url": "https://slides4all.github.io",
+      "note": {
+        "pt": "Dicas para montar e conferir uma apresentação antes de subir ao palco.",
+        "en": "Tips for building and checking a presentation before you go on stage.",
+        "es": "Consejos para armar y revisar una presentación antes de subir al escenario."
+      }
+    },
+    {
+      "name": "alegrete.org",
+      "url": "https://alegrete.org",
+      "note": {
+        "pt": "Um site de cidade feito com IA, com dezenas de páginas em mais de um idioma.",
+        "en": "A city website built with AI, with dozens of pages in more than one language.",
+        "es": "Un sitio de ciudad hecho con IA, con decenas de páginas en más de un idioma."
+      }
+    },
+    {
+      "name": "ai-horizon-labs.github.io",
+      "url": "https://ai-horizon-labs.github.io",
+      "note": {
+        "pt": "O site do laboratório, em português, espanhol e inglês.",
+        "en": "The lab's website, in Portuguese, Spanish and English.",
+        "es": "El sitio del laboratorio, en portugués, español e inglés."
+      }
+    },
+    {
+      "name": "algoritmos4all.github.io",
+      "url": "https://algoritmos4all.github.io",
+      "note": {
+        "pt": "Conteúdo de livros refatorado e ampliado com IA, com código que roda no navegador.",
+        "en": "Textbook content refactored and expanded with AI, with code that runs in the browser.",
+        "es": "Contenido de libros refactorizado y ampliado con IA, con código que corre en el navegador."
+      }
+    },
+    {
+      "name": "NotebookLM",
+      "url": "https://notebooklm.google.com",
+      "note": {
+        "pt": "Suba a sua apostila e estude a partir do seu próprio material.",
+        "en": "Upload your course notes and study from your own material.",
+        "es": "Sube tu apunte y estudia a partir de tu propio material."
+      }
+    }
+  ],
+  "i18n": {
+    "pt": {
+      "title": "IA na prática",
+      "tagline": "Como usar inteligência artificial para estudar, criar e trabalhar melhor.",
+      "event": "Colégio Emílio Zuneda, Ciclo de Palestras dos Cursos Técnicos de Administração e Contabilidade",
+      "when": "20 de outubro de 2026, 19h30",
+      "where": "Colégio Emílio Zuneda, Alegrete",
+      "format": "Palestra com quatro perguntas à plateia e exemplos reais de IA, sem retoque",
+      "audience": "Estudantes e docentes dos cursos técnicos de Administração e Contabilidade",
+      "summary": [
+        "A IA já está no seu dia: no feed que escolheu o que você viu, no Pix aprovado em milissegundos, no currículo que um software leu antes de uma pessoa. A proposta da noite é sair do banco do passageiro e pegar o volante.",
+        "Primeiro, entender o que ela faz bem e onde ela erra feio, inclusive inventando fontes com formato perfeito. Depois, aprender a pedir bem: uma receita de cinco partes e quatro truques, testados numa tarefa real de comércio.",
+        "A segunda metade é prática: cinco usos para começar amanhã, das apresentações e sites aos vídeos, ao estudo e à rotina de Contabilidade e Administração. Todos os exemplos são respostas reais de IA, com dados fictícios."
+      ],
+      "numbers": [
+        {
+          "value": "5 minutos",
+          "label": "O tempo de trabalho para criar, com IA, as três músicas tocadas na abertura."
+        },
+        {
+          "value": "19 perguntas",
+          "label": "Quantas a IA fez antes de sugerir uma promoção, quando pedi que ela perguntasse antes."
+        },
+        {
+          "value": "3 diferenças",
+          "label": "Encontradas e explicadas em segundos numa conciliação bancária entre extrato e razão."
+        },
+        {
+          "value": "7 dias",
+          "label": "O desafio para a semana: escolher uma tarefa repetitiva e refazê-la com IA."
+        }
+      ],
+      "outline": [
+        {
+          "title": "A IA já está no seu dia",
+          "text": "Do celular às 7h10 ao streaming às 21h, a IA decide coisas por você o dia inteiro. Hoje é para pegar o volante."
+        },
+        {
+          "title": "O que ela é, e o que ela não é",
+          "text": "Um modelo que aprendeu padrões em bilhões de textos e prevê a palavra mais provável. Provável não é certo."
+        },
+        {
+          "title": "Formato perfeito, conteúdo falso",
+          "text": "A referência bibliográfica impecável de um livro que não existe, e por que pedir à mesma IA para conferir ajuda pouco."
+        },
+        {
+          "title": "A regra de ouro",
+          "text": "A IA faz o rascunho. Quem assina é você, na escola, no estágio e no emprego."
+        },
+        {
+          "title": "Pedido fraco, pedido bom",
+          "text": "O mesmo tema, fluxo de caixa, rende uma aula de 400 palavras ou uma tabela útil para o dono da padaria. A diferença está no contexto."
+        },
+        {
+          "title": "A receita e quatro truques",
+          "text": "Quem, contexto, tarefa, formato e limite. Depois: peça que ela pergunte antes, peça três versões, peça que ela critique e compare duas IAs."
+        },
+        {
+          "title": "Uso 1: apresentações",
+          "text": "Esta apresentação foi feita com IA. Do zero ao slide em quatro passos, com fonte grande, pouco texto e teste no celular."
+        },
+        {
+          "title": "Uso 2: sites",
+          "text": "Um site de cidade, um de laboratório e a página de uma padaria de Alegrete. Bonito não é o mesmo que útil: útil vem do pedido."
+        },
+        {
+          "title": "Uso 3: vídeos",
+          "text": "Roteiro, slides, narração e legenda. Dois vídeos do contador feitos com IA, e uma regra: voz ou rosto de outra pessoa sem autorização, nunca."
+        },
+        {
+          "title": "Uso 4: estudo",
+          "text": "A IA como professor particular, não como cola. Ela tira o atrito, não o esforço."
+        },
+        {
+          "title": "Uso 5: Contabilidade e gestão",
+          "text": "Conciliação bancária, fórmulas como SOMASES explicadas, atas, e-mails difíceis e planos 5W2H. O número final se confere na planilha, nunca no chat."
+        },
+        {
+          "title": "Cuidados e cinco hábitos",
+          "text": "O que nunca colar numa IA, os cinco hábitos para levar para casa e um desafio de sete dias."
+        }
+      ],
+      "takeaways": [
+        "A IA faz o rascunho. Quem assina é você.",
+        "Quanto mais contexto você dá, menos ela precisa adivinhar.",
+        "Toda fonte, lei e número que vier da IA: confira na origem.",
+        "Peça no mínimo três versões e escolha, em vez de aceitar a primeira.",
+        "Não cole dados pessoais, nunca. Troque por dados fictícios.",
+        "A entrega ficou barata. O julgamento ficou caro."
+      ]
+    },
+    "en": {
+      "title": "AI in practice",
+      "tagline": "How to use artificial intelligence to study, create and work better.",
+      "event": "Colégio Emílio Zuneda, talk series of the technical programmes in Business Administration and Accounting",
+      "when": "20 October 2026, 7:30 pm",
+      "where": "Colégio Emílio Zuneda, Alegrete",
+      "format": "A talk with four questions put to the room and real, unedited AI answers",
+      "audience": "Students and faculty of the technical programmes in Business Administration and Accounting",
+      "summary": [
+        "AI is already in your day: in the feed that picked what you saw, in the instant payment approved in milliseconds, in the résumé a piece of software read before any person did. The goal tonight is to move from the passenger seat to the wheel.",
+        "First, understanding what it does well and where it fails badly, including inventing sources in perfect format. Then, learning to ask well: a five part recipe and four tricks, tested on a real retail task.",
+        "The second half is hands on: five uses to start tomorrow, from presentations and websites to videos, studying and the daily routine of accounting and management. Every example is a real AI answer, using fictitious data."
+      ],
+      "numbers": [
+        {
+          "value": "5 minutes",
+          "label": "The working time it took to create, with AI, the three songs played at the opening."
+        },
+        {
+          "value": "19 questions",
+          "label": "How many the AI asked before suggesting a promotion, when told to ask first."
+        },
+        {
+          "value": "3 differences",
+          "label": "Found and explained in seconds in a bank reconciliation between statement and ledger."
+        },
+        {
+          "value": "7 days",
+          "label": "The challenge for the week: pick one repetitive task and redo it with AI."
+        }
+      ],
+      "outline": [
+        {
+          "title": "AI is already in your day",
+          "text": "From your phone at 7:10 am to streaming at 9 pm, AI makes decisions for you all day long. Tonight is about taking the wheel."
+        },
+        {
+          "title": "What it is, and what it is not",
+          "text": "A model that learned patterns from billions of texts and predicts the most likely word. Likely is not the same as right."
+        },
+        {
+          "title": "Perfect format, false content",
+          "text": "The flawless citation of a book that does not exist, and why asking the same AI to check helps little."
+        },
+        {
+          "title": "The golden rule",
+          "text": "AI writes the draft. You sign it, at school, in your internship and at work."
+        },
+        {
+          "title": "Weak request, good request",
+          "text": "The same topic, cash flow, yields either a 400 word lecture or a table the bakery owner can actually use. The difference is context."
+        },
+        {
+          "title": "The recipe and four tricks",
+          "text": "Who, context, task, format and limits. Then: have it ask first, ask for three versions, have it critique itself and compare two AIs."
+        },
+        {
+          "title": "Use 1: presentations",
+          "text": "This presentation was made with AI. From zero to slide in four steps, with large fonts, little text and a test on the phone."
+        },
+        {
+          "title": "Use 2: websites",
+          "text": "A city site, a lab site and the page of a bakery in Alegrete. Pretty is not the same as useful: useful comes from the request."
+        },
+        {
+          "title": "Use 3: videos",
+          "text": "Script, slides, narration and captions. Two accountant videos made with AI, and one rule: never use someone else's voice or face without permission."
+        },
+        {
+          "title": "Use 4: studying",
+          "text": "AI as a private tutor, not a cheat sheet. It removes friction, not effort."
+        },
+        {
+          "title": "Use 5: accounting and management",
+          "text": "Bank reconciliation, spreadsheet formulas such as SUMIFS explained, minutes, difficult emails and 5W2H plans. The final number is checked in the spreadsheet, never in the chat."
+        },
+        {
+          "title": "Precautions and five habits",
+          "text": "What never to paste into an AI, five habits to take home and a seven day challenge."
+        }
+      ],
+      "takeaways": [
+        "AI writes the draft. You sign it.",
+        "The more context you give, the less it has to guess.",
+        "Every source, law and number that comes from AI: check it at the origin.",
+        "Ask for at least three versions and choose, instead of accepting the first.",
+        "Never paste personal data. Replace it with fictitious data.",
+        "Delivery got cheap. Judgement got expensive."
+      ]
+    },
+    "es": {
+      "title": "IA en la práctica",
+      "tagline": "Cómo usar la inteligencia artificial para estudiar, crear y trabajar mejor.",
+      "event": "Colégio Emílio Zuneda, ciclo de charlas de las carreras técnicas de Administración y Contabilidad",
+      "when": "20 de octubre de 2026, 19:30",
+      "where": "Colégio Emílio Zuneda, Alegrete",
+      "format": "Charla con cuatro preguntas al público y respuestas reales de IA, sin retoques",
+      "audience": "Estudiantes y docentes de las carreras técnicas de Administración y Contabilidad",
+      "summary": [
+        "La IA ya está en tu día: en el feed que eligió lo que viste, en el pago instantáneo aprobado en milisegundos, en el currículum que un software leyó antes que una persona. La propuesta de esta noche es dejar el asiento del acompañante y tomar el volante.",
+        "Primero, entender lo que hace bien y dónde se equivoca feo, incluso inventando fuentes con formato perfecto. Después, aprender a pedir bien: una receta de cinco partes y cuatro trucos, probados en una tarea real de comercio.",
+        "La segunda mitad es práctica: cinco usos para empezar mañana, de las presentaciones y los sitios web a los videos, el estudio y la rutina de Contabilidad y Administración. Todos los ejemplos son respuestas reales de IA, con datos ficticios."
+      ],
+      "numbers": [
+        {
+          "value": "5 minutos",
+          "label": "El tiempo de trabajo para crear, con IA, las tres canciones de la apertura."
+        },
+        {
+          "value": "19 preguntas",
+          "label": "Las que hizo la IA antes de sugerir una promoción, cuando le pedí que preguntara antes."
+        },
+        {
+          "value": "3 diferencias",
+          "label": "Encontradas y explicadas en segundos en una conciliación bancaria entre extracto y libro mayor."
+        },
+        {
+          "value": "7 días",
+          "label": "El desafío de la semana: elegir una tarea repetitiva y rehacerla con IA."
+        }
+      ],
+      "outline": [
+        {
+          "title": "La IA ya está en tu día",
+          "text": "Del celular a las 7:10 al streaming a las 21:00, la IA decide cosas por ti todo el día. Hoy se trata de tomar el volante."
+        },
+        {
+          "title": "Lo que es, y lo que no es",
+          "text": "Un modelo que aprendió patrones en miles de millones de textos y predice la palabra más probable. Probable no es cierto."
+        },
+        {
+          "title": "Formato perfecto, contenido falso",
+          "text": "La referencia bibliográfica impecable de un libro que no existe, y por qué pedirle a la misma IA que lo revise ayuda poco."
+        },
+        {
+          "title": "La regla de oro",
+          "text": "La IA hace el borrador. Quien firma eres tú, en la escuela, en la práctica y en el trabajo."
+        },
+        {
+          "title": "Pedido débil, pedido bueno",
+          "text": "El mismo tema, flujo de caja, da una clase de 400 palabras o una tabla útil para el dueño de la panadería. La diferencia está en el contexto."
+        },
+        {
+          "title": "La receta y cuatro trucos",
+          "text": "Quién, contexto, tarea, formato y límite. Después: pide que pregunte antes, pide tres versiones, pide que se critique y compara dos IAs."
+        },
+        {
+          "title": "Uso 1: presentaciones",
+          "text": "Esta presentación se hizo con IA. Del cero a la diapositiva en cuatro pasos, con letra grande, poco texto y prueba en el celular."
+        },
+        {
+          "title": "Uso 2: sitios web",
+          "text": "Un sitio de ciudad, uno de laboratorio y la página de una panadería de Alegrete. Bonito no es lo mismo que útil: lo útil viene del pedido."
+        },
+        {
+          "title": "Uso 3: videos",
+          "text": "Guion, diapositivas, narración y subtítulos. Dos videos del contador hechos con IA, y una regla: nunca la voz o el rostro de otra persona sin autorización."
+        },
+        {
+          "title": "Uso 4: estudio",
+          "text": "La IA como profesor particular, no como chuleta. Quita la fricción, no el esfuerzo."
+        },
+        {
+          "title": "Uso 5: Contabilidad y gestión",
+          "text": "Conciliación bancaria, fórmulas como SUMAR.SI.CONJUNTO explicadas, actas, correos difíciles y planes 5W2H. El número final se revisa en la planilla, nunca en el chat."
+        },
+        {
+          "title": "Cuidados y cinco hábitos",
+          "text": "Lo que nunca hay que pegar en una IA, cinco hábitos para llevar a casa y un desafío de siete días."
+        }
+      ],
+      "takeaways": [
+        "La IA hace el borrador. Quien firma eres tú.",
+        "Cuanto más contexto das, menos necesita adivinar.",
+        "Toda fuente, ley y cifra que venga de la IA: revísala en el origen.",
+        "Pide al menos tres versiones y elige, en lugar de aceptar la primera.",
+        "Nunca pegues datos personales. Cámbialos por datos ficticios.",
+        "La entrega se volvió barata. El juicio se volvió caro."
+      ]
+    }
+  }
+}

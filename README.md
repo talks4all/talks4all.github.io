@@ -11,6 +11,7 @@ content/site.json              textos do site (nome, bio, rótulos de interface)
 content/talks/<slug>.json      uma palestra, com os três idiomas dentro
 assets/css/site.css            folha de estilo única
 assets/js/lang.js              guarda o idioma escolhido para a próxima visita
+assets/thumbs/                 miniatura do primeiro slide de cada palestra, gerada pelo build
 files/                         slides para download (PDF, PPTX)
 build.py                       gerador
 ```
@@ -38,7 +39,7 @@ O comando apaga e recria as pastas `pt/`, `en/` e `es/`. Depois é só commitar 
 2. Preencha os três idiomas em `i18n`. Os campos `host` e `numbers` são opcionais; os demais aparecem sempre.
 3. Preencha `date_iso` no formato `AAAA-MM-DD`, ou `AAAA-MM` quando só o mês for conhecido. Ele define a data mostrada na listagem e a ordem, que é sempre da palestra mais recente para a mais antiga. Ajuste também `status`, que aceita `upcoming` ou `past`.
 4. Coloque os slides em `files/` nos dois formatos, PDF e PPTX, e aponte os dois em `downloads`. O tamanho mostrado no site é lido do arquivo durante o build, e um arquivo que ainda não existe é omitido do site com um aviso no terminal, em vez de virar link quebrado.
-5. Rode `python3 build.py`.
+5. Rode `python3 build.py`. A miniatura da página inicial sai da primeira página do PDF, via `pdftoppm` (Poppler), e só é refeita quando o PDF muda. Commite também o arquivo novo em `assets/thumbs/`.
 
 ## Adicionar um idioma
 
