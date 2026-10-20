@@ -90,7 +90,7 @@ def thumbnail(talk: dict) -> str | None:
             THUMBS.mkdir(parents=True, exist_ok=True)
             subprocess.run(
                 ["pdftoppm", "-jpeg", "-jpegopt", "quality=85", "-f", "1", "-l", "1",
-                 "-scale-to", "720", "-singlefile", str(pdf), str(target.with_suffix(""))],
+                 "-scale-to", "320", "-singlefile", str(pdf), str(target.with_suffix(""))],
                 check=True,
             )
             print("  ", target.relative_to(ROOT))
@@ -202,7 +202,7 @@ def render_home(site: dict, talks: list[dict], lang: str) -> str:
         status = t["status_upcoming"] if talk.get("status") == "upcoming" else t["status_past"]
         thumb = thumbnail(talk)
         img = (
-            f'\n      <img class="talk__thumb" src="{esc(thumb)}" alt="" width="720" height="405" loading="lazy">'
+            f'\n      <img class="talk__thumb" src="{esc(thumb)}" alt="" width="320" height="180" loading="lazy">'
             if thumb else ""
         )
         rows.append(f"""    <li><a class="talk{' talk--thumb' if thumb else ''}" href="/{lang}/{talk['slug']}/">{img}
