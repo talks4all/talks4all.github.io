@@ -164,6 +164,21 @@ section + section { border-top: 1px solid var(--rule); }
 }
 .talk__date { display: block; color: var(--ink); font-size: 0.9375rem; }
 
+.talk__media {
+  display: flex; flex-wrap: wrap; gap: 0.5rem 1.75rem;
+  margin: calc(-1 * clamp(0.75rem, 2vw, 1.25rem)) 0 0;
+  padding-bottom: clamp(1.75rem, 4vw, 2.5rem);
+  font-family: var(--display); font-size: 0.875rem; line-height: 1.5;
+}
+.talk__media--thumb { padding-left: calc(6.5rem + 1.25rem); }
+.talk__media-group { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.25rem 0.9rem; }
+.talk__media b {
+  font-weight: 500; font-size: 0.6875rem; letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--gold-ink); border: 1px solid var(--gold); border-radius: 3px; padding: 0 0.35rem;
+}
+.talk__media a { text-decoration-color: var(--rule-strong); text-underline-offset: 0.2em; }
+.talk__media a:hover { color: var(--gold-ink); text-decoration-color: var(--gold); }
+
 /* ---------- quem apresenta ---------- */
 
 .about { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: clamp(1.5rem, 4vw, 4rem); }
@@ -211,6 +226,43 @@ section + section { border-top: 1px solid var(--rule); }
 
 .prose { max-width: var(--measure); color: var(--ink-soft); font-size: 1.09rem; }
 .prose p + p { margin-top: 0; }
+
+/* ---------- músicas e vídeos ---------- */
+
+.media__featured { margin: 0 0 2.75rem; max-width: 56rem; }
+.media__featured video, .media__videos video {
+  display: block; width: 100%; height: auto; aspect-ratio: 16 / 9;
+  background: #000; border: 1px solid var(--rule); border-radius: 6px;
+}
+.media__featured figcaption { margin-top: 1rem; padding-left: 1rem; border-left: 2px solid var(--gold); }
+
+.media__group {
+  font-size: 0.75rem; font-weight: 500; letter-spacing: 0.03em; color: var(--ink-mute);
+  margin: 0 0 1rem;
+}
+.media__videos {
+  list-style: none; margin: 0 0 2.75rem; padding: 0;
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr)); gap: 2rem;
+}
+.media__videos figure { margin: 0; }
+.media__videos figcaption { margin-top: 0.85rem; }
+
+.media__songs { list-style: none; margin: 0; padding: 0; max-width: 48em; }
+.media__songs li {
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(14rem, 20rem);
+  align-items: center; gap: 0.75rem 2rem;
+  padding-block: 1rem; border-top: 1px solid var(--rule);
+}
+.media__songs li:last-child { border-bottom: 1px solid var(--rule); }
+.media__songs audio { width: 100%; }
+
+.media__featured h3, .media__videos h3, .media__songs h3 { font-size: 1.15rem; letter-spacing: -0.015em; }
+.media__featured h3 { font-size: clamp(1.35rem, 1.1rem + 1vw, 1.9rem); }
+figcaption p, .media__songs p { margin: 0.3rem 0 0; color: var(--ink-soft); font-size: 0.9375rem; line-height: 1.55; }
+.media__file { font-family: var(--display); font-size: 0.8125rem; }
+.media__file a { color: var(--ink); text-decoration-color: var(--rule-strong); text-underline-offset: 0.2em; }
+.media__file a:hover { color: var(--gold-ink); }
+.media__file span { color: var(--ink-mute); margin-left: 0.4rem; }
 
 /* ---------- números ---------- */
 
@@ -310,4 +362,6 @@ section + section { border-top: 1px solid var(--rule); }
   .talk__aside { text-align: left; }
   .outline li { grid-template-columns: 2.25rem minmax(0, 1fr); }
   .talk::before { left: -0.6rem; }
+  .talk__media--thumb { padding-left: calc(4.5rem + 1rem); }
+  .media__songs li { grid-template-columns: 1fr; }
 }

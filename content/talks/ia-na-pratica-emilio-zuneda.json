@@ -1,6 +1,6 @@
 {
   "slug": "ia-na-pratica-emilio-zuneda",
-  "status": "upcoming",
+  "status": "past",
   "date_iso": "2026-10-20",
   "downloads": [
     {
@@ -22,37 +22,42 @@
       }
     }
   ],
-  "resources": [
+  "media": [
     {
-      "name": "Radical, versão 1 (MP3)",
-      "url": "/musicas/emilio_zuneda/radical_v1.mp3",
+      "kind": "video",
+      "featured": true,
+      "file": "/videos/emilio_zuneda/ia-na-pratica-EmilioZuneda-video.mp4",
+      "poster": "/assets/posters/ia-na-pratica-EmilioZuneda-video.jpg",
+      "title": {
+        "pt": "IA na prática, o vídeo da palestra",
+        "en": "AI in practice, the video of the talk",
+        "es": "IA en la práctica, el video de la charla"
+      },
+      "short": {
+        "pt": "Vídeo da palestra",
+        "en": "Video of the talk",
+        "es": "Video de la charla"
+      },
       "note": {
-        "pt": "Música criada com IA para esta palestra.",
-        "en": "A song created with AI for this talk.",
-        "es": "Canción creada con IA para esta charla."
+        "pt": "O pedido feito no início da palestra, entregue pela IA: a apresentação inteira em 3min28s.",
+        "en": "The request made at the start of the talk, delivered by AI: the whole presentation in 3 min 28 s.",
+        "es": "El pedido hecho al inicio de la charla, entregado por la IA: la presentación entera en 3 min 28 s."
       }
     },
     {
-      "name": "Radical, versão 2 (MP3)",
-      "url": "/musicas/emilio_zuneda/radical_v2.mp3",
-      "note": {
-        "pt": "Mesmo pedido, outro resultado.",
-        "en": "Same request, a different result.",
-        "es": "El mismo pedido, otro resultado."
-      }
-    },
-    {
-      "name": "Radical, versão 3 (MP3)",
-      "url": "/musicas/emilio_zuneda/radical_v3.mp3",
-      "note": {
-        "pt": "A melhor das três: com som real de banjo no meio da música.",
-        "en": "The best of the three: with a real banjo sound in the middle of the song.",
-        "es": "La mejor de las tres: con sonido real de banjo en medio de la canción."
-      }
-    },
-    {
-      "name": "O contador, em desenho animado (MP4)",
-      "url": "/videos/emilio_zuneda/contador_cartoon_narrado.mp4",
+      "kind": "video",
+      "file": "/videos/emilio_zuneda/contador_cartoon_narrado.mp4",
+      "poster": "/assets/posters/contador_cartoon_narrado.jpg",
+      "title": {
+        "pt": "O contador, em desenho animado",
+        "en": "The accountant, as a cartoon",
+        "es": "El contador, en dibujos animados"
+      },
+      "short": {
+        "pt": "O contador, desenho",
+        "en": "The accountant, cartoon",
+        "es": "El contador, dibujos"
+      },
       "note": {
         "pt": "Roteiro, imagens e narração gerados com IA.",
         "en": "Script, images and narration generated with AI.",
@@ -60,14 +65,84 @@
       }
     },
     {
-      "name": "O contador, em estilo clean (MP4)",
-      "url": "/videos/emilio_zuneda/contador_clean_narrado.mp4",
+      "kind": "video",
+      "file": "/videos/emilio_zuneda/contador_clean_narrado.mp4",
+      "poster": "/assets/posters/contador_clean_narrado.jpg",
+      "title": {
+        "pt": "O contador, em estilo clean",
+        "en": "The accountant, in a clean style",
+        "es": "El contador, en estilo limpio"
+      },
+      "short": {
+        "pt": "O contador, clean",
+        "en": "The accountant, clean",
+        "es": "El contador, limpio"
+      },
       "note": {
         "pt": "Mesmo roteiro, visual mais sóbrio.",
         "en": "Same script, a more sober look.",
         "es": "El mismo guion, con un estilo más sobrio."
       }
     },
+    {
+      "kind": "audio",
+      "file": "/musicas/emilio_zuneda/radical_v1.mp3",
+      "title": {
+        "pt": "Radical, versão 1",
+        "en": "Radical, version 1",
+        "es": "Radical, versión 1"
+      },
+      "short": {
+        "pt": "Radical 1",
+        "en": "Radical 1",
+        "es": "Radical 1"
+      },
+      "note": {
+        "pt": "Música criada com IA para esta palestra.",
+        "en": "A song created with AI for this talk.",
+        "es": "Canción creada con IA para esta charla."
+      }
+    },
+    {
+      "kind": "audio",
+      "file": "/musicas/emilio_zuneda/radical_v2.mp3",
+      "title": {
+        "pt": "Radical, versão 2",
+        "en": "Radical, version 2",
+        "es": "Radical, versión 2"
+      },
+      "short": {
+        "pt": "Radical 2",
+        "en": "Radical 2",
+        "es": "Radical 2"
+      },
+      "note": {
+        "pt": "Mesmo pedido, outro resultado.",
+        "en": "Same request, a different result.",
+        "es": "El mismo pedido, otro resultado."
+      }
+    },
+    {
+      "kind": "audio",
+      "file": "/musicas/emilio_zuneda/radical_v3.mp3",
+      "title": {
+        "pt": "Radical, versão 3",
+        "en": "Radical, version 3",
+        "es": "Radical, versión 3"
+      },
+      "short": {
+        "pt": "Radical 3",
+        "en": "Radical 3",
+        "es": "Radical 3"
+      },
+      "note": {
+        "pt": "A melhor das três: com som real de banjo no meio da música.",
+        "en": "The best of the three: with a real banjo sound in the middle of the song.",
+        "es": "La mejor de las tres: con sonido real de banjo en medio de la canción."
+      }
+    }
+  ],
+  "resources": [
     {
       "name": "slides4all.github.io",
       "url": "https://slides4all.github.io",

@@ -183,6 +183,22 @@ def footer(site: dict, t: dict) -> str:
 """
 
 
+def home_media(talk: dict, lang: str, t: dict, thumb: bool) -> str:
+    """Links diretos para músicas e vídeos, logo abaixo do cartão (fora dele, que já é um link)."""
+    items = media_items(talk)
+    groups = []
+    for kind, label in (("video", t["media_videos"]), ("audio", t["media_songs"])):
+        links = " ".join(
+            f'<a href="{esc(m["file"])}">{esc(m["short"][lang])}</a>' for m in items if m["kind"] == kind
+        )
+        if links:
+            groups.append(f'<span class="talk__media-group"><b>{esc(label)}</b> {links}</span>')
+    if not groups:
+        return ""
+    cls = "talk__media talk__media--thumb" if thumb else "talk__media"
+    return f'\n    <p class="{cls}">{"".join(groups)}</p>'
+
+
 def render_home(site: dict, talks: list[dict], lang: str) -> str:
     t = site["i18n"][lang]
     path = f"/{lang}/"
@@ -212,7 +228,7 @@ def render_home(site: dict, talks: list[dict], lang: str) -> str:
         <p class="talk__tagline">{esc(c['tagline'])}</p>
       </div>
       <p class="talk__aside"><span class="talk__date">{esc(format_date(talk['date_iso'], lang))}</span>{esc(status)}</p>
-    </a></li>""")
+    </a>{home_media(talk, lang, t, bool(thumb))}</li>""")
 
     out.append(f"""  <section aria-labelledby="palestras">
     <h2 class="section-title" id="palestras">{esc(t['talks_heading'])}</h2>
@@ -239,6 +255,65 @@ def render_home(site: dict, talks: list[dict], lang: str) -> str:
 """)
     out.append(footer(site, t))
     return "".join(out)
+
+
+def media_items(talk: dict) -> list[dict]:
+    """Músicas e vídeos da palestra cujo arquivo existe; os ausentes viram aviso no terminal."""
+    items = []
+    for m in talk.get("media", []):
+        if not (ROOT / m["file"].lstrip("/")).exists():
+            MISSING.add(f'{talk["slug"]}: {m["file"].lstrip("/")}')
+            continue
+        items.append(m)
+    return items
+
+
+def render_media(talk: dict, lang: str, t: dict) -> str:
+    """Seção com os players: o vídeo em destaque grande, os demais vídeos em grade, depois as músicas."""
+    items = media_items(talk)
+    if not items:
+        return ""
+
+    def caption(m: dict) -> str:
+        path = ROOT / m["file"].lstrip("/")
+        fmt = path.suffix.lstrip(".").upper()
+        return (
+            f'<h3>{esc(m["title"][lang])}</h3>'
+            f'<p>{esc(m["note"][lang])}</p>'
+            f'<p class="media__file"><a href="{esc(m["file"])}">{esc(t["media_open"])}</a>'
+            f' <span>{esc(fmt)} · {esc(human_size(path))}</span></p>'
+        )
+
+    def video(m: dict) -> str:
+        poster = f' poster="{esc(m["poster"])}"' if m.get("poster") else ""
+        return (
+            f'<video controls playsinline preload="none"{poster} width="1280" height="720">'
+            f'<source src="{esc(m["file"])}" type="video/mp4"></video>'
+        )
+
+    blocks = []
+    featured = [m for m in items if m["kind"] == "video" and m.get("featured")]
+    videos = [m for m in items if m["kind"] == "video" and not m.get("featured")]
+    songs = [m for m in items if m["kind"] == "audio"]
+    for m in featured:
+        blocks.append(f'    <figure class="media__featured">{video(m)}<figcaption>{caption(m)}</figcaption></figure>')
+    if videos:
+        cells = "\n".join(
+            f'      <li><figure>{video(m)}<figcaption>{caption(m)}</figcaption></figure></li>' for m in videos
+        )
+        blocks.append(f'    <h3 class="media__group">{esc(t["media_videos"])}</h3>\n    <ul class="media__videos">\n{cells}\n    </ul>')
+    if songs:
+        cells = "\n".join(
+            f'      <li><div>{caption(m)}</div>'
+            f'<audio controls preload="none" src="{esc(m["file"])}"></audio></li>' for m in songs
+        )
+        blocks.append(f'    <h3 class="media__group">{esc(t["media_songs"])}</h3>\n    <ul class="media__songs">\n{cells}\n    </ul>')
+
+    return f"""  <section aria-labelledby="midia">
+    <h2 class="section-title" id="midia">{esc(t['media_heading'])}</h2>
+{chr(10).join(blocks)}
+  </section>
+"""
 
 
 def render_talk(site: dict, talk: dict, lang: str) -> str:
@@ -281,6 +356,9 @@ def render_talk(site: dict, talk: dict, lang: str) -> str:
     </div>
   </section>
 """)
+
+    if talk.get("media"):
+        out.append(render_media(talk, lang, t))
 
     if c.get("numbers"):
         items = "\n".join(
