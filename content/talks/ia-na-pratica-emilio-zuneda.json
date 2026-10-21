@@ -54,9 +54,9 @@
         "es": "El contador, en dibujos animados"
       },
       "short": {
-        "pt": "O contador, desenho",
-        "en": "The accountant, cartoon",
-        "es": "El contador, dibujos"
+        "pt": "O contador (desenho)",
+        "en": "The accountant (cartoon)",
+        "es": "El contador (dibujos)"
       },
       "note": {
         "pt": "Roteiro, imagens e narração gerados com IA.",
@@ -74,9 +74,9 @@
         "es": "El contador, en estilo limpio"
       },
       "short": {
-        "pt": "O contador, clean",
-        "en": "The accountant, clean",
-        "es": "El contador, limpio"
+        "pt": "O contador (clean)",
+        "en": "The accountant (clean)",
+        "es": "El contador (limpio)"
       },
       "note": {
         "pt": "Mesmo roteiro, visual mais sóbrio.",

@@ -188,15 +188,16 @@ def home_media(talk: dict, lang: str, t: dict, thumb: bool) -> str:
     items = media_items(talk)
     groups = []
     for kind, label in (("video", t["media_videos"]), ("audio", t["media_songs"])):
-        links = " ".join(
+        # vírgula e ponto como texto, para a lista continuar legível sem CSS e em leitores de tela
+        links = ", ".join(
             f'<a href="{esc(m["file"])}">{esc(m["short"][lang])}</a>' for m in items if m["kind"] == kind
         )
         if links:
-            groups.append(f'<span class="talk__media-group"><b>{esc(label)}</b> {links}</span>')
+            groups.append(f'<li><b>{esc(label)}:</b> {links}.</li>')
     if not groups:
         return ""
     cls = "talk__media talk__media--thumb" if thumb else "talk__media"
-    return f'\n    <p class="{cls}">{"".join(groups)}</p>'
+    return f'\n    <ul class="{cls}">{"".join(groups)}</ul>'
 
 
 def render_home(site: dict, talks: list[dict], lang: str) -> str:
