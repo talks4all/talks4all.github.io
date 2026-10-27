@@ -1,0 +1,320 @@
+{
+  "slug": "engenheiro-agricola-do-futuro",
+  "status": "upcoming",
+  "date_iso": "2026-10-27",
+  "downloads": [
+    {
+      "file": "engenheiro-agricola-do-futuro.pdf",
+      "format": "PDF",
+      "label": {
+        "pt": "Slides da palestra",
+        "en": "Talk slides",
+        "es": "Diapositivas de la charla"
+      }
+    },
+    {
+      "file": "engenheiro-agricola-do-futuro.pptx",
+      "format": "PPTX",
+      "label": {
+        "pt": "Slides da palestra, com os vídeos embutidos",
+        "en": "Talk slides, with the videos embedded",
+        "es": "Diapositivas de la charla, con los videos incluidos"
+      }
+    },
+    {
+      "file": "engenheiro-agricola-do-futuro.html",
+      "format": "HTML",
+      "label": {
+        "pt": "Slides para abrir no navegador, com notas do apresentador",
+        "en": "Slides to open in the browser, with speaker notes",
+        "es": "Diapositivas para abrir en el navegador, con notas del presentador"
+      }
+    }
+  ],
+  "resources": [
+    {
+      "name": "Engenharia Agrícola, UNIPAMPA",
+      "url": "https://engenharia-agricola.github.io",
+      "note": {
+        "pt": "O site do curso feito com IA: matriz com pré-requisitos, planejador de grade, evolução do PPC, IA no campo e a proposta de PPC do futuro.",
+        "en": "The programme site built with AI: curriculum with prerequisites, schedule planner, how the curriculum evolved, AI in the field and the proposed curriculum of the future.",
+        "es": "El sitio de la carrera hecho con IA: plan de estudios con prerrequisitos, planificador de horarios, evolución del plan, IA en el campo y la propuesta de plan del futuro."
+      }
+    },
+    {
+      "name": "MapBiomas",
+      "url": "https://brasil.mapbiomas.org",
+      "note": {
+        "pt": "Quarenta anos de mapas anuais do uso do solo, gratuitos, feitos com aprendizado de máquina. Procure o Pampa.",
+        "en": "Forty years of free annual land use maps, built with machine learning. Look up the Pampa.",
+        "es": "Cuarenta años de mapas anuales de uso del suelo, gratuitos, hechos con aprendizaje automático. Busca el Pampa."
+      }
+    },
+    {
+      "name": "INMET",
+      "url": "https://portal.inmet.gov.br",
+      "note": {
+        "pt": "Dados das estações meteorológicas, inclusive a de Alegrete. Dado local é o que o modelo de fora não tem.",
+        "en": "Weather station data, including the Alegrete station. Local data is exactly what an outside model lacks.",
+        "es": "Datos de las estaciones meteorológicas, incluida la de Alegrete. El dato local es justo lo que le falta al modelo de afuera."
+      }
+    },
+    {
+      "name": "BIA, Bacharelado em IA da UNIPAMPA",
+      "url": "https://bia-unipampa.github.io",
+      "note": {
+        "pt": "O novo curso de Inteligência Artificial do Campus Alegrete, com início em março de 2027. Agricultura digital é a ponte natural entre os dois cursos.",
+        "en": "The new Artificial Intelligence degree at the Alegrete campus, starting March 2027. Digital agriculture is the natural bridge between the two programmes.",
+        "es": "La nueva carrera de Inteligencia Artificial del Campus Alegrete, que empieza en marzo de 2027. La agricultura digital es el puente natural entre las dos carreras."
+      }
+    }
+  ],
+  "i18n": {
+    "pt": {
+      "title": "O Engenheiro Agrícola do futuro",
+      "tagline": "O curso, o campo e a inteligência artificial.",
+      "event": "UNIPAMPA, Curso de Engenharia Agrícola",
+      "when": "27 de outubro de 2026, 18h30",
+      "where": "UNIPAMPA, Campus Alegrete",
+      "format": "Palestra construída em torno de cinco perguntas feitas à plateia, com clipe, reels e músicas feitos com IA",
+      "audience": "Estudantes e docentes do Curso de Engenharia Agrícola",
+      "summary": [
+        "São 1.846 páginas nas cinco versões do PPC de Engenharia Agrícola. A expressão \"inteligência artificial\" aparece zero vezes. A palestra parte desse número, levantado por uma IA que leu os cinco PDFs inteiros e montou um site do curso numa tarde, com cada número conferido no documento original.",
+        "No meio, o campo: drones, pulverização por imagem, irrigação decidida por IA, granjas que escutam, silos com sensores e mapas de satélite, com casos reais do Brasil e da própria UNIPAMPA. E também onde o modelo erra com cara de acerto, de 99% no laboratório a 31% fora dele.",
+        "No fim, a formação: o que a IA muda no jeito de aprender e de avaliar, e uma proposta exploratória, para discussão, de um PPC para quem entra em 2027. A regra de ouro atravessa tudo: o modelo recomenda, quem assina a ART é o engenheiro."
+      ],
+      "numbers": [
+        {
+          "value": "1.846 páginas, zero menções",
+          "label": "Nenhuma das cinco versões do PPC menciona inteligência artificial."
+        },
+        {
+          "value": "76%",
+          "label": "Menos herbicida com pulverização por imagem, medido pela Iowa State em talhões de soja."
+        },
+        {
+          "value": "99% → 31%",
+          "label": "Acerto de uma rede neural de diagnóstico de doenças de plantas quando a foto saiu do banco de treino."
+        },
+        {
+          "value": "270 h",
+          "label": "O eixo de dados e IA proposto para o PPC do futuro, do primeiro ao oitavo semestre."
+        }
+      ],
+      "outline": [
+        {
+          "title": "O curso: o PPC explicado num site",
+          "text": "Matriz com mapa de pré-requisitos, planejador de grade e cinco PDFs comparados numa página. A IA leu e montou, e cada número foi conferido no PPC."
+        },
+        {
+          "title": "A IA hoje: por que um colega consegue e outro não",
+          "text": "O pedido, o modelo, a ferramenta, o material e a conversa. Um pedido fraco devolve faixas genéricas; um pedido bom dimensiona a bomba de 50 ha de arroz."
+        },
+        {
+          "title": "Mesma pergunta, três modelos",
+          "text": "Qual portaria do MAPA regula a aplicação de agrotóxicos por drones? Os três acertam o número e divergem nas exigências. Convincente não é certo."
+        },
+        {
+          "title": "O campo: quatro formas de a IA chegar",
+          "text": "Visão, previsão, autonomia e linguagem. Seis tecnologias já em uso no Brasil, uma por área do curso, e o que cada uma muda para o engenheiro agrícola."
+        },
+        {
+          "title": "Exemplos reais",
+          "text": "See & Spray, Solix, Arbus, Smart Irriga, SoundTalks, classificação de soja na Embrapa, SORTEX, MapBiomas, Cromai e o trabalho da UNIPAMPA com capim-annoni e carrapatos."
+        },
+        {
+          "title": "O valor do engenheiro se desloca",
+          "text": "Fica barato o cálculo de rotina e o relatório padrão. Fica caro coletar bom dado, integrar sistemas, validar o modelo e assinar a responsabilidade técnica."
+        },
+        {
+          "title": "Erro com cara de acerto",
+          "text": "O modelo treinado fora do Pampa, a rede neural que despenca fora do laboratório e a jurisprudência inventada que virou multa no TJSC."
+        },
+        {
+          "title": "A formação: professor particular, não cola",
+          "text": "Alunos de primeiro semestre entregando em duas horas o que já foi trabalho de conclusão. A entrega ficou barata, o julgamento ficou caro, e a avaliação precisa acompanhar."
+        },
+        {
+          "title": "Redesenhar: um PPC para quem entra em 2027",
+          "text": "Proposta exploratória: eixo de dados e IA, um problema real por semestre, quatro níveis de uso de IA na avaliação e revisão anual pelo NDE."
+        },
+        {
+          "title": "Cinco hábitos e um compromisso para cada lado da sala",
+          "text": "Conferir, pedir que a IA pergunte e critique, comparar duas IAs, proteger o dado do produtor e declarar o uso. Para estudantes e para docentes."
+        }
+      ],
+      "takeaways": [
+        "O modelo recomenda. Quem assina a ART é você.",
+        "A IA não chega ao campo como uma máquina nova, chega dentro de todas elas.",
+        "Mesma IA, resultados diferentes: a diferença está no uso.",
+        "Modelo de fora erra no Pampa com cara de acerto. A vantagem de vocês é conhecer o que ele não conhece.",
+        "A entrega ficou barata. O julgamento ficou caro.",
+        "Use a IA para ir além do que você faria sozinho, não para pular o esforço."
+      ]
+    },
+    "en": {
+      "title": "The Agricultural Engineer of the future",
+      "tagline": "The programme, the field and artificial intelligence.",
+      "event": "UNIPAMPA, Agricultural Engineering programme",
+      "when": "27 October 2026, 6:30 pm",
+      "where": "UNIPAMPA, Alegrete campus",
+      "format": "Talk built around five questions put to the room, with a clip, reels and songs made with AI",
+      "audience": "Students and faculty of the Agricultural Engineering programme",
+      "summary": [
+        "The five versions of the Agricultural Engineering curriculum add up to 1,846 pages. The phrase \"artificial intelligence\" appears zero times. The talk starts from that number, found by an AI that read all five PDFs and built a programme website in an afternoon, with every figure checked against the original document.",
+        "In the middle, the field: drones, image-based spraying, AI-driven irrigation, barns that listen, silos with sensors and satellite maps, with real cases from Brazil and from UNIPAMPA itself. And also where the model is wrong while looking right, from 99% in the lab to 31% outside it.",
+        "At the end, education: what AI changes in how students learn and are assessed, and an exploratory proposal, for discussion, of a curriculum for those starting in 2027. The golden rule runs through all of it: the model recommends, the engineer signs."
+      ],
+      "numbers": [
+        {
+          "value": "1,846 pages, zero mentions",
+          "label": "None of the five curriculum versions mentions artificial intelligence."
+        },
+        {
+          "value": "76%",
+          "label": "Less herbicide with image-based spraying, measured by Iowa State on soybean fields."
+        },
+        {
+          "value": "99% → 31%",
+          "label": "Accuracy of a plant disease neural network once the photos came from outside its training set."
+        },
+        {
+          "value": "270 h",
+          "label": "The data and AI track proposed for the curriculum of the future, from the first to the eighth semester."
+        }
+      ],
+      "outline": [
+        {
+          "title": "The programme: the curriculum explained in a website",
+          "text": "Curriculum with a prerequisite map, schedule planner and five PDFs compared on one page. AI read and built it, and every figure was checked against the source."
+        },
+        {
+          "title": "AI today: why one classmate succeeds and another does not",
+          "text": "The request, the model, the tool, the material and the conversation. A weak prompt returns generic ranges; a good one sizes the pump for 50 ha of rice."
+        },
+        {
+          "title": "Same question, three models",
+          "text": "Which Brazilian ministry ordinance regulates pesticide application by drones? All three get the number right and disagree on the requirements. Convincing is not correct."
+        },
+        {
+          "title": "The field: four ways AI arrives",
+          "text": "Vision, prediction, autonomy and language. Six technologies already in use in Brazil, one per area of the programme, and what each changes for the agricultural engineer."
+        },
+        {
+          "title": "Real examples",
+          "text": "See & Spray, Solix, Arbus, Smart Irriga, SoundTalks, soybean grading at Embrapa, SORTEX, MapBiomas, Cromai and UNIPAMPA's work on annoni grass and cattle ticks."
+        },
+        {
+          "title": "The engineer's value shifts",
+          "text": "Routine calculations and standard reports get cheap. Collecting good data, integrating systems, validating the model and signing for it get expensive."
+        },
+        {
+          "title": "Wrong while looking right",
+          "text": "The model trained outside the Pampa, the neural network that collapses outside the lab, and the invented case law that ended in a fine in a Brazilian court."
+        },
+        {
+          "title": "Education: a private tutor, not a cheat sheet",
+          "text": "First semester students delivering in two hours what used to be a final year project. Delivery got cheap, judgement got expensive, and assessment has to follow."
+        },
+        {
+          "title": "Redesign: a curriculum for those starting in 2027",
+          "text": "Exploratory proposal: a data and AI track, one real problem per semester, four levels of AI use in assessment and a yearly review."
+        },
+        {
+          "title": "Five habits and one commitment for each side of the room",
+          "text": "Check, have the AI ask and critique, compare two AIs, protect the farmer's data and declare your use. For students and for faculty."
+        }
+      ],
+      "takeaways": [
+        "The model recommends. You are the one who signs.",
+        "AI does not arrive in the field as a new machine, it arrives inside all of them.",
+        "Same AI, different results: the difference is in how you use it.",
+        "An outside model gets the Pampa wrong while looking right. Your advantage is knowing what it does not.",
+        "Delivery got cheap. Judgement got expensive.",
+        "Use AI to go beyond what you would do alone, not to skip the effort."
+      ]
+    },
+    "es": {
+      "title": "El Ingeniero Agrícola del futuro",
+      "tagline": "La carrera, el campo y la inteligencia artificial.",
+      "event": "UNIPAMPA, carrera de Ingeniería Agrícola",
+      "when": "27 de octubre de 2026, 18:30",
+      "where": "UNIPAMPA, Campus Alegrete",
+      "format": "Charla construida sobre cinco preguntas hechas al público, con clip, reels y canciones hechos con IA",
+      "audience": "Estudiantes y docentes de la carrera de Ingeniería Agrícola",
+      "summary": [
+        "Las cinco versiones del plan de estudios de Ingeniería Agrícola suman 1.846 páginas. La expresión \"inteligencia artificial\" aparece cero veces. La charla parte de ese número, obtenido por una IA que leyó los cinco PDF enteros y armó un sitio de la carrera en una tarde, con cada cifra verificada en el documento original.",
+        "En el medio, el campo: drones, pulverización por imagen, riego decidido por IA, granjas que escuchan, silos con sensores y mapas satelitales, con casos reales de Brasil y de la propia UNIPAMPA. Y también dónde el modelo se equivoca con cara de acierto, del 99% en el laboratorio al 31% fuera de él.",
+        "Al final, la formación: lo que la IA cambia en la forma de aprender y de evaluar, y una propuesta exploratoria, para discusión, de un plan para quien ingresa en 2027. La regla de oro atraviesa todo: el modelo recomienda, quien firma es el ingeniero."
+      ],
+      "numbers": [
+        {
+          "value": "1.846 páginas, cero menciones",
+          "label": "Ninguna de las cinco versiones del plan de estudios menciona la inteligencia artificial."
+        },
+        {
+          "value": "76%",
+          "label": "Menos herbicida con pulverización por imagen, medido por Iowa State en lotes de soja."
+        },
+        {
+          "value": "99% → 31%",
+          "label": "Acierto de una red neuronal de diagnóstico de enfermedades de plantas cuando la foto salió del banco de entrenamiento."
+        },
+        {
+          "value": "270 h",
+          "label": "El eje de datos e IA propuesto para el plan del futuro, del primer al octavo semestre."
+        }
+      ],
+      "outline": [
+        {
+          "title": "La carrera: el plan de estudios explicado en un sitio",
+          "text": "Plan con mapa de prerrequisitos, planificador de horarios y cinco PDF comparados en una página. La IA leyó y armó, y cada cifra fue verificada en el original."
+        },
+        {
+          "title": "La IA hoy: por qué a un compañero le sale y a otro no",
+          "text": "El pedido, el modelo, la herramienta, el material y la conversación. Un pedido flojo devuelve rangos genéricos; uno bueno dimensiona la bomba para 50 ha de arroz."
+        },
+        {
+          "title": "La misma pregunta, tres modelos",
+          "text": "¿Qué ordenanza del ministerio brasileño regula la aplicación de agroquímicos con drones? Los tres aciertan el número y discrepan en las exigencias. Convincente no es correcto."
+        },
+        {
+          "title": "El campo: cuatro formas en que llega la IA",
+          "text": "Visión, predicción, autonomía y lenguaje. Seis tecnologías ya en uso en Brasil, una por área de la carrera, y lo que cada una cambia para el ingeniero agrícola."
+        },
+        {
+          "title": "Ejemplos reales",
+          "text": "See & Spray, Solix, Arbus, Smart Irriga, SoundTalks, clasificación de soja en Embrapa, SORTEX, MapBiomas, Cromai y el trabajo de la UNIPAMPA con capim-annoni y garrapatas."
+        },
+        {
+          "title": "El valor del ingeniero se desplaza",
+          "text": "Se abaratan el cálculo de rutina y el informe estándar. Se encarecen recolectar buen dato, integrar sistemas, validar el modelo y firmar la responsabilidad técnica."
+        },
+        {
+          "title": "Error con cara de acierto",
+          "text": "El modelo entrenado fuera del Pampa, la red neuronal que se desploma fuera del laboratorio y la jurisprudencia inventada que terminó en multa en un tribunal brasileño."
+        },
+        {
+          "title": "La formación: profesor particular, no machete",
+          "text": "Alumnos de primer semestre entregando en dos horas lo que antes era trabajo de fin de carrera. La entrega se abarató, el juicio se encareció, y la evaluación tiene que acompañar."
+        },
+        {
+          "title": "Rediseñar: un plan para quien ingresa en 2027",
+          "text": "Propuesta exploratoria: eje de datos e IA, un problema real por semestre, cuatro niveles de uso de IA en la evaluación y revisión anual."
+        },
+        {
+          "title": "Cinco hábitos y un compromiso para cada lado del aula",
+          "text": "Verificar, pedir que la IA pregunte y critique, comparar dos IAs, proteger el dato del productor y declarar el uso. Para estudiantes y para docentes."
+        }
+      ],
+      "takeaways": [
+        "El modelo recomienda. Quien firma eres tú.",
+        "La IA no llega al campo como una máquina nueva, llega dentro de todas ellas.",
+        "La misma IA, resultados distintos: la diferencia está en el uso.",
+        "Un modelo de afuera se equivoca en el Pampa con cara de acierto. Tu ventaja es conocer lo que él no conoce.",
+        "La entrega se abarató. El juicio se encareció.",
+        "Usa la IA para ir más allá de lo que harías solo, no para saltarte el esfuerzo."
+      ]
+    }
+  }
+}
