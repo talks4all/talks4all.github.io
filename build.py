@@ -187,7 +187,10 @@ def home_media(talk: dict, lang: str, t: dict, thumb: bool) -> str:
     """Links diretos para músicas e vídeos, logo abaixo do cartão (fora dele, que já é um link)."""
     items = media_items(talk)
     groups = []
-    for kind, label in (("video", t["media_videos"]), ("audio", t["media_songs"])):
+    for kind, label in (
+        ("video", t["media_videos"]), ("reel", t["media_reels"]),
+        ("audio", t["media_songs"]), ("site", t["media_site"]),
+    ):
         # vírgula e ponto como texto, para a lista continuar legível sem CSS e em leitores de tela
         links = ", ".join(
             f'<a href="{esc(m["file"])}">{esc(m["short"][lang])}</a>' for m in items if m["kind"] == kind
@@ -258,11 +261,16 @@ def render_home(site: dict, talks: list[dict], lang: str) -> str:
     return "".join(out)
 
 
+def is_external(url: str) -> bool:
+    return url.startswith(("http://", "https://"))
+
+
 def media_items(talk: dict) -> list[dict]:
     """Músicas e vídeos da palestra cujo arquivo existe; os ausentes viram aviso no terminal."""
     items = []
     for m in talk.get("media", []):
-        if not (ROOT / m["file"].lstrip("/")).exists():
+        # endereço absoluto aponta para outro site (ex.: o site da palestra), que hospeda o arquivo
+        if not is_external(m["file"]) and not (ROOT / m["file"].lstrip("/")).exists():
             MISSING.add(f'{talk["slug"]}: {m["file"].lstrip("/")}')
             continue
         items.append(m)
@@ -276,33 +284,38 @@ def render_media(talk: dict, lang: str, t: dict) -> str:
         return ""
 
     def caption(m: dict) -> str:
-        path = ROOT / m["file"].lstrip("/")
-        fmt = path.suffix.lstrip(".").upper()
+        fmt = Path(m["file"]).suffix.lstrip(".").upper()
+        info = fmt if is_external(m["file"]) else f'{fmt} · {human_size(ROOT / m["file"].lstrip("/"))}'
         return (
             f'<h3>{esc(m["title"][lang])}</h3>'
             f'<p>{esc(m["note"][lang])}</p>'
             f'<p class="media__file"><a href="{esc(m["file"])}">{esc(t["media_open"])}</a>'
-            f' <span>{esc(fmt)} · {esc(human_size(path))}</span></p>'
+            f' <span>{esc(info)}</span></p>'
         )
 
     def video(m: dict) -> str:
         poster = f' poster="{esc(m["poster"])}"' if m.get("poster") else ""
+        size = 'width="720" height="1280"' if m["kind"] == "reel" else 'width="1280" height="720"'
         return (
-            f'<video controls playsinline preload="none"{poster} width="1280" height="720">'
+            f'<video controls playsinline preload="none"{poster} {size}>'
             f'<source src="{esc(m["file"])}" type="video/mp4"></video>'
         )
 
     blocks = []
     featured = [m for m in items if m["kind"] == "video" and m.get("featured")]
     videos = [m for m in items if m["kind"] == "video" and not m.get("featured")]
+    reels = [m for m in items if m["kind"] == "reel"]
     songs = [m for m in items if m["kind"] == "audio"]
     for m in featured:
         blocks.append(f'    <figure class="media__featured">{video(m)}<figcaption>{caption(m)}</figcaption></figure>')
-    if videos:
+    # reels são verticais (9:16) e ganham grade própria, mais estreita
+    for group, label, cls in ((videos, t["media_videos"], "media__videos"), (reels, t["media_reels"], "media__videos media__reels")):
+        if not group:
+            continue
         cells = "\n".join(
-            f'      <li><figure>{video(m)}<figcaption>{caption(m)}</figcaption></figure></li>' for m in videos
+            f'      <li><figure>{video(m)}<figcaption>{caption(m)}</figcaption></figure></li>' for m in group
         )
-        blocks.append(f'    <h3 class="media__group">{esc(t["media_videos"])}</h3>\n    <ul class="media__videos">\n{cells}\n    </ul>')
+        blocks.append(f'    <h3 class="media__group">{esc(label)}</h3>\n    <ul class="{cls}">\n{cells}\n    </ul>')
     if songs:
         cells = "\n".join(
             f'      <li><div>{caption(m)}</div>'

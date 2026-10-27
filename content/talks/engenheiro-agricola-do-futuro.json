@@ -31,6 +31,193 @@
       }
     }
   ],
+  "media": [
+    {
+      "kind": "video",
+      "file": "https://engenharia-agricola.github.io/assets/video/ea_unipampa_clip_v1.mp4",
+      "poster": "https://engenharia-agricola.github.io/assets/video/ea_unipampa_clip_v1.jpg",
+      "title": {
+        "pt": "Clipe do curso, versão 1",
+        "en": "Programme clip, version 1",
+        "es": "Clip de la carrera, versión 1"
+      },
+      "short": {
+        "pt": "Clipe 1",
+        "en": "Clip 1",
+        "es": "Clip 1"
+      },
+      "note": {
+        "pt": "O curso, o Pampa e o que faz um engenheiro agrícola em 1min47, com narração e legendas.",
+        "en": "The programme, the Pampa and what an agricultural engineer does in 1 min 47 s, narrated and subtitled in Portuguese.",
+        "es": "La carrera, la Pampa y lo que hace un ingeniero agrícola en 1 min 47 s, con narración y subtítulos en portugués."
+      }
+    },
+    {
+      "kind": "video",
+      "file": "https://engenharia-agricola.github.io/assets/video/ea_unipampa_clip_v2.mp4",
+      "poster": "https://engenharia-agricola.github.io/assets/video/ea_unipampa_clip_v2.jpg",
+      "title": {
+        "pt": "Clipe do curso, versão 2",
+        "en": "Programme clip, version 2",
+        "es": "Clip de la carrera, versión 2"
+      },
+      "short": {
+        "pt": "Clipe 2",
+        "en": "Clip 2",
+        "es": "Clip 2"
+      },
+      "note": {
+        "pt": "O mesmo clipe em outra versão, com 1min58.",
+        "en": "The same clip in another version, 1 min 58 s long.",
+        "es": "El mismo clip en otra versión, de 1 min 58 s."
+      }
+    },
+    {
+      "kind": "video",
+      "file": "https://engenharia-agricola.github.io/assets/video/curva_de_nivel.mp4",
+      "poster": "https://engenharia-agricola.github.io/assets/video/curva_de_nivel.jpg",
+      "title": {
+        "pt": "Curva de nível",
+        "en": "Contour lines",
+        "es": "Curva de nivel"
+      },
+      "short": {
+        "pt": "Curva de nível",
+        "en": "Contour lines",
+        "es": "Curva de nivel"
+      },
+      "note": {
+        "pt": "Um conceito do curso em 2min21: a técnica que segura a água e o solo no lugar.",
+        "en": "A programme concept in 2 min 21 s: the technique that keeps water and soil in place (in Portuguese).",
+        "es": "Un concepto de la carrera en 2 min 21 s: la técnica que mantiene el agua y el suelo en su lugar (en portugués)."
+      }
+    },
+    {
+      "kind": "reel",
+      "file": "https://engenharia-agricola.github.io/assets/video/raiz_e_engrenagem_reels.mp4",
+      "poster": "https://engenharia-agricola.github.io/assets/video/raiz_e_engrenagem_reels.jpg",
+      "title": {
+        "pt": "Raiz e Engrenagem, reel completo",
+        "en": "Raiz e Engrenagem, full reel",
+        "es": "Raiz e Engrenagem, reel completo"
+      },
+      "short": {
+        "pt": "Raiz e Engrenagem (49s)",
+        "en": "Raiz e Engrenagem (49 s)",
+        "es": "Raiz e Engrenagem (49 s)"
+      },
+      "note": {
+        "pt": "Reel vertical de 49s, pensado para o celular e as redes sociais.",
+        "en": "A 49 s vertical reel, made for phones and social media.",
+        "es": "Reel vertical de 49 s, pensado para el celular y las redes sociales."
+      }
+    },
+    {
+      "kind": "reel",
+      "file": "https://engenharia-agricola.github.io/assets/video/raiz_e_engrenagem_reels_30s.mp4",
+      "poster": "https://engenharia-agricola.github.io/assets/video/raiz_e_engrenagem_reels_30s.jpg",
+      "title": {
+        "pt": "Raiz e Engrenagem, reel curto",
+        "en": "Raiz e Engrenagem, short reel",
+        "es": "Raiz e Engrenagem, reel corto"
+      },
+      "short": {
+        "pt": "Raiz e Engrenagem (32s)",
+        "en": "Raiz e Engrenagem (32 s)",
+        "es": "Raiz e Engrenagem (32 s)"
+      },
+      "note": {
+        "pt": "A versão curta, com 32s.",
+        "en": "The short version, 32 s long.",
+        "es": "La versión corta, de 32 s."
+      }
+    },
+    {
+      "kind": "audio",
+      "file": "https://engenharia-agricola.github.io/musicas/raiz_e_engrenagem.mp3",
+      "title": {
+        "pt": "Raiz e Engrenagem",
+        "en": "Raiz e Engrenagem",
+        "es": "Raiz e Engrenagem"
+      },
+      "short": {
+        "pt": "Raiz e Engrenagem",
+        "en": "Raiz e Engrenagem",
+        "es": "Raiz e Engrenagem"
+      },
+      "note": {
+        "pt": "A canção dos reels, criada com IA para esta palestra.",
+        "en": "The song from the reels, created with AI for this talk.",
+        "es": "La canción de los reels, creada con IA para esta charla."
+      }
+    },
+    {
+      "kind": "audio",
+      "file": "https://engenharia-agricola.github.io/musicas/pe_no_acelerador.mp3",
+      "title": {
+        "pt": "Pé no Acelerador",
+        "en": "Pé no Acelerador",
+        "es": "Pé no Acelerador"
+      },
+      "short": {
+        "pt": "Pé no Acelerador",
+        "en": "Pé no Acelerador",
+        "es": "Pé no Acelerador"
+      },
+      "note": {
+        "pt": "Rock criado com IA para esta palestra.",
+        "en": "A rock song created with AI for this talk.",
+        "es": "Rock creado con IA para esta charla."
+      }
+    },
+    {
+      "kind": "audio",
+      "file": "https://engenharia-agricola.github.io/musicas/garrao_de_bagual.mp3",
+      "title": {
+        "pt": "Garrão de Bagual",
+        "en": "Garrão de Bagual",
+        "es": "Garrão de Bagual"
+      },
+      "short": {
+        "pt": "Garrão de Bagual",
+        "en": "Garrão de Bagual",
+        "es": "Garrão de Bagual"
+      },
+      "note": {
+        "pt": "Milonga criada com IA para esta palestra.",
+        "en": "A milonga created with AI for this talk.",
+        "es": "Milonga creada con IA para esta charla."
+      }
+    },
+    {
+      "kind": "audio",
+      "file": "https://engenharia-agricola.github.io/musicas/garrao_de_bagual_instrumental.mp3",
+      "title": {
+        "pt": "Garrão de Bagual, instrumental",
+        "en": "Garrão de Bagual, instrumental",
+        "es": "Garrão de Bagual, instrumental"
+      },
+      "short": {
+        "pt": "Garrão de Bagual (instrumental)",
+        "en": "Garrão de Bagual (instrumental)",
+        "es": "Garrão de Bagual (instrumental)"
+      },
+      "note": {
+        "pt": "A mesma milonga, sem a voz.",
+        "en": "The same milonga, without vocals.",
+        "es": "La misma milonga, sin la voz."
+      }
+    },
+    {
+      "kind": "site",
+      "file": "https://engenharia-agricola.github.io/",
+      "short": {
+        "pt": "engenharia-agricola.github.io",
+        "en": "engenharia-agricola.github.io",
+        "es": "engenharia-agricola.github.io"
+      }
+    }
+  ],
   "resources": [
     {
       "name": "Engenharia Agrícola, UNIPAMPA",
