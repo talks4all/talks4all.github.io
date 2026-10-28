@@ -94,42 +94,42 @@
     },
     {
       "kind": "reel",
-      "file": "https://engenharia-agricola.github.io/assets/video/raiz_e_engrenagem_reels.mp4",
-      "poster": "https://engenharia-agricola.github.io/assets/video/raiz_e_engrenagem_reels.jpg",
+      "file": "https://engenharia-agricola.github.io/reels/reels_EA_vem_pra_unipampa.mp4",
+      "poster": "/assets/posters/reels_EA_vem_pra_unipampa.jpg",
       "title": {
-        "pt": "Raiz e Engrenagem, reel completo",
-        "en": "Raiz e Engrenagem, full reel",
-        "es": "Raiz e Engrenagem, reel completo"
+        "pt": "Vem pra Unipampa",
+        "en": "Vem pra Unipampa (Come to Unipampa)",
+        "es": "Vem pra Unipampa (Vení a Unipampa)"
       },
       "short": {
-        "pt": "Raiz e Engrenagem (49s)",
-        "en": "Raiz e Engrenagem (49 s)",
-        "es": "Raiz e Engrenagem (49 s)"
+        "pt": "Vem pra Unipampa (40s)",
+        "en": "Vem pra Unipampa (40 s)",
+        "es": "Vem pra Unipampa (40 s)"
       },
       "note": {
-        "pt": "Reel vertical de 49s, pensado para o celular e as redes sociais.",
-        "en": "A 49 s vertical reel, made for phones and social media.",
-        "es": "Reel vertical de 49 s, pensado para el celular y las redes sociales."
+        "pt": "Reel vertical de 40s, pensado para o celular e as redes sociais.",
+        "en": "A 40 s vertical reel, made for phones and social media (in Portuguese).",
+        "es": "Reel vertical de 40 s, pensado para el celular y las redes sociales (en portugués)."
       }
     },
     {
       "kind": "reel",
-      "file": "https://engenharia-agricola.github.io/assets/video/raiz_e_engrenagem_reels_30s.mp4",
-      "poster": "https://engenharia-agricola.github.io/assets/video/raiz_e_engrenagem_reels_30s.jpg",
+      "file": "https://engenharia-agricola.github.io/reels/reels_EA_frentes_de_atuacao.mp4",
+      "poster": "/assets/posters/reels_EA_frentes_de_atuacao.jpg",
       "title": {
-        "pt": "Raiz e Engrenagem, reel curto",
-        "en": "Raiz e Engrenagem, short reel",
-        "es": "Raiz e Engrenagem, reel corto"
+        "pt": "Frentes de atuação",
+        "en": "Fields of work",
+        "es": "Áreas de actuación"
       },
       "short": {
-        "pt": "Raiz e Engrenagem (32s)",
-        "en": "Raiz e Engrenagem (32 s)",
-        "es": "Raiz e Engrenagem (32 s)"
+        "pt": "Frentes de atuação (48s)",
+        "en": "Fields of work (48 s)",
+        "es": "Áreas de actuación (48 s)"
       },
       "note": {
-        "pt": "A versão curta, com 32s.",
-        "en": "The short version, 32 s long.",
-        "es": "La versión corta, de 32 s."
+        "pt": "Reel vertical de 48s sobre as frentes de atuação da Engenharia Agrícola.",
+        "en": "A 48 s vertical reel on the fields of work of Agricultural Engineering (in Portuguese).",
+        "es": "Reel vertical de 48 s sobre las áreas de actuación de la Ingeniería Agrícola (en portugués)."
       }
     },
     {
