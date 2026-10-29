@@ -235,21 +235,21 @@
     },
     {
       "kind": "audio",
-      "file": "https://alegrete-summit.github.io/musicas/alegrete-summit-thunder-4.mp3",
+      "file": "https://alegrete-summit.github.io/musicas/alegrete-summit-versao-4.mp3",
       "title": {
-        "pt": "Alegrete Summit, Thunder, versão 4",
-        "en": "Alegrete Summit, Thunder, version 4",
-        "es": "Alegrete Summit, Thunder, versión 4"
+        "pt": "Alegrete Summit, Original, versão 4",
+        "en": "Alegrete Summit, Original, version 4",
+        "es": "Alegrete Summit, Original, versión 4"
       },
       "short": {
-        "pt": "Thunder 4 ★",
-        "en": "Thunder 4 ★",
-        "es": "Thunder 4 ★"
+        "pt": "Original 4 ★",
+        "en": "Original 4 ★",
+        "es": "Original 4 ★"
       },
       "note": {
-        "pt": "A favorita do Summit: energia do começo ao fim. Se for ouvir uma só, ouça esta. 3min35, feita com IA.",
-        "en": "The Summit favourite: energy from start to finish. If you only listen to one, make it this one. 3 min 35 s, made with AI.",
-        "es": "La favorita del Summit: energía de principio a fin. Si vas a escuchar una sola, que sea esta. 3 min 35 s, hecha con IA."
+        "pt": "A música do Alegrete Summit 2026 em destaque. Se for ouvir uma só, ouça esta. 3min35, feita com IA.",
+        "en": "The featured Alegrete Summit 2026 song. If you only listen to one, make it this one. 3 min 35 s, made with AI.",
+        "es": "La canción destacada del Alegrete Summit 2026. Si vas a escuchar una sola, que sea esta. 3 min 35 s, hecha con IA."
       }
     },
     {
@@ -311,25 +311,6 @@
     },
     {
       "kind": "audio",
-      "file": "https://alegrete-summit.github.io/musicas/alegrete-summit-versao-4.mp3",
-      "title": {
-        "pt": "Alegrete Summit, Original, versão 4",
-        "en": "Alegrete Summit, Original, version 4",
-        "es": "Alegrete Summit, Original, versión 4"
-      },
-      "short": {
-        "pt": "Original 4",
-        "en": "Original 4",
-        "es": "Original 4"
-      },
-      "note": {
-        "pt": "Música do Alegrete Summit 2026 no estilo Original, 3min35, feita com IA.",
-        "en": "Alegrete Summit 2026 song in the Original style, 3 min 35 s, made with AI.",
-        "es": "Canción del Alegrete Summit 2026 en estilo Original, 3 min 35 s, hecha con IA."
-      }
-    },
-    {
-      "kind": "audio",
       "file": "https://alegrete-summit.github.io/musicas/alegrete-summit-thunder-1.mp3",
       "title": {
         "pt": "Alegrete Summit, Thunder, versão 1",
@@ -378,6 +359,25 @@
         "pt": "Thunder 3",
         "en": "Thunder 3",
         "es": "Thunder 3"
+      },
+      "note": {
+        "pt": "Música do Alegrete Summit 2026 no estilo Thunder, 3min35, feita com IA.",
+        "en": "Alegrete Summit 2026 song in the Thunder style, 3 min 35 s, made with AI.",
+        "es": "Canción del Alegrete Summit 2026 en estilo Thunder, 3 min 35 s, hecha con IA."
+      }
+    },
+    {
+      "kind": "audio",
+      "file": "https://alegrete-summit.github.io/musicas/alegrete-summit-thunder-4.mp3",
+      "title": {
+        "pt": "Alegrete Summit, Thunder, versão 4",
+        "en": "Alegrete Summit, Thunder, version 4",
+        "es": "Alegrete Summit, Thunder, versión 4"
+      },
+      "short": {
+        "pt": "Thunder 4",
+        "en": "Thunder 4",
+        "es": "Thunder 4"
       },
       "note": {
         "pt": "Música do Alegrete Summit 2026 no estilo Thunder, 3min35, feita com IA.",
