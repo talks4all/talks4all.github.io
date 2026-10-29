@@ -1,0 +1,733 @@
+{
+  "slug": "ia-acelera-alegrete-summit-2026",
+  "status": "upcoming",
+  "date_iso": "2026-10-29",
+  "downloads": [
+    {
+      "file": "ia-acelera-alegrete-summit-2026.pdf",
+      "format": "PDF",
+      "label": {
+        "pt": "Slides da palestra",
+        "en": "Talk slides",
+        "es": "Diapositivas de la charla"
+      }
+    },
+    {
+      "file": "ia-acelera-alegrete-summit-2026.pptx",
+      "format": "PPTX",
+      "label": {
+        "pt": "Slides da palestra, com os vídeos embutidos",
+        "en": "Talk slides, with the videos embedded",
+        "es": "Diapositivas de la charla, con los videos incluidos"
+      }
+    },
+    {
+      "file": "ia-acelera-alegrete-summit-2026.html",
+      "format": "HTML",
+      "label": {
+        "pt": "Slides para abrir no navegador, com notas do apresentador",
+        "en": "Slides to open in the browser, with speaker notes",
+        "es": "Diapositivas para abrir en el navegador, con notas del presentador"
+      }
+    }
+  ],
+  "media": [
+    {
+      "kind": "video",
+      "file": "https://alegrete-summit.github.io/assets/video/ia-inovacao-simbiose-narrado.mp4",
+      "poster": "https://alegrete-summit.github.io/assets/video/ia-inovacao-simbiose-narrado.jpg",
+      "title": {
+        "pt": "IA + Inovação: a simbiose indissolúvel",
+        "en": "AI + Innovation: an inseparable symbiosis",
+        "es": "IA + Innovación: la simbiosis indisoluble"
+      },
+      "short": {
+        "pt": "A simbiose",
+        "en": "The symbiosis",
+        "es": "La simbiosis"
+      },
+      "note": {
+        "pt": "O clipe do Summit, exibido na palestra: 72s, narrado, feito com IA. Inovar é construir pontes, e a IA é a nova ponte.",
+        "en": "The Summit clip shown in the talk: 72 s, narrated in Portuguese, made with AI. Innovating is building bridges, and AI is the new bridge.",
+        "es": "El clip del Summit que se muestra en la charla: 72 s, narrado en portugués, hecho con IA. Innovar es construir puentes, y la IA es el nuevo puente."
+      },
+      "featured": true
+    },
+    {
+      "kind": "video",
+      "file": "https://alegrete-summit.github.io/assets/video/cowmed-ia-narrado.mp4",
+      "poster": "https://alegrete-summit.github.io/assets/video/cowmed-ia-narrado.jpg",
+      "title": {
+        "pt": "Cowmed: a IA que escuta o rebanho",
+        "en": "Cowmed: the AI that listens to the herd",
+        "es": "Cowmed: la IA que escucha al rodeo"
+      },
+      "short": {
+        "pt": "Cowmed",
+        "en": "Cowmed",
+        "es": "Cowmed"
+      },
+      "note": {
+        "pt": "Caso de sucesso em 75s, narrado: da incubadora da UFSM a 100 mil animais monitorados em quatro países.",
+        "en": "A success story in 75 s, narrated in Portuguese: from the UFSM incubator to 100,000 animals monitored in four countries.",
+        "es": "Caso de éxito en 75 s, narrado en portugués: de la incubadora de la UFSM a 100 mil animales monitoreados en cuatro países."
+      }
+    },
+    {
+      "kind": "video",
+      "file": "https://alegrete-summit.github.io/assets/video/kaua-ia-narrado.mp4",
+      "poster": "https://alegrete-summit.github.io/assets/video/kaua-ia-narrado.jpg",
+      "title": {
+        "pt": "Kauã e o poder de criar",
+        "en": "Kauã and the power to create",
+        "es": "Kauã y el poder de crear"
+      },
+      "short": {
+        "pt": "Kauã (narrado)",
+        "en": "Kauã (narrated)",
+        "es": "Kauã (narrado)"
+      },
+      "note": {
+        "pt": "A fábula em 88s, narrada: internet, um notebook e IA levam o poder de criar a uma aldeia na Amazônia.",
+        "en": "The fable in 88 s, narrated in Portuguese: internet, a laptop and AI bring the power to create to a village in the Amazon.",
+        "es": "La fábula en 88 s, narrada en portugués: internet, una notebook e IA llevan el poder de crear a una aldea en la Amazonia."
+      }
+    },
+    {
+      "kind": "video",
+      "file": "https://alegrete-summit.github.io/assets/video/kaua-filme.mp4",
+      "poster": "https://alegrete-summit.github.io/assets/video/kaua-filme.jpg",
+      "title": {
+        "pt": "Kauã e o poder de criar, versão filme",
+        "en": "Kauã and the power to create, film version",
+        "es": "Kauã y el poder de crear, versión película"
+      },
+      "short": {
+        "pt": "Kauã (filme)",
+        "en": "Kauã (film)",
+        "es": "Kauã (película)"
+      },
+      "note": {
+        "pt": "A mesma fábula com cenas cinematográficas, em 89s.",
+        "en": "The same fable with cinematic scenes, 89 s long.",
+        "es": "La misma fábula con escenas cinematográficas, en 89 s."
+      }
+    },
+    {
+      "kind": "video",
+      "file": "https://alegrete-summit.github.io/assets/video/kaua-ia.mp4",
+      "poster": "https://alegrete-summit.github.io/assets/video/kaua-ia.jpg",
+      "title": {
+        "pt": "A fábula de Kauã, versão original",
+        "en": "The fable of Kauã, original version",
+        "es": "La fábula de Kauã, versión original"
+      },
+      "short": {
+        "pt": "Kauã (original)",
+        "en": "Kauã (original)",
+        "es": "Kauã (original)"
+      },
+      "note": {
+        "pt": "A versão exibida na abertura da palestra, sem narração, em 2min54. Personagem e produto fictícios.",
+        "en": "The version shown at the opening of the talk, without narration, 2 min 54 s. Fictional character and product.",
+        "es": "La versión que abre la charla, sin narración, en 2 min 54 s. Personaje y producto ficticios."
+      }
+    },
+    {
+      "kind": "video",
+      "file": "https://alegrete-summit.github.io/assets/video/revolucao-ia-narrado.mp4",
+      "poster": "https://alegrete-summit.github.io/assets/video/revolucao-ia-narrado.jpg",
+      "title": {
+        "pt": "A revolução da IA já começou. E está atropelando",
+        "en": "The AI revolution has already begun. And it is running people over",
+        "es": "La revolución de la IA ya empezó. Y está atropellando"
+      },
+      "short": {
+        "pt": "A revolução da IA",
+        "en": "The AI revolution",
+        "es": "La revolución de la IA"
+      },
+      "note": {
+        "pt": "O caso IoTEdu em 2min46, narrado: seis alunos em sete dias contra um aluno com IA em duas horas. A IA não nivela, amplia a diferença.",
+        "en": "The IoTEdu case in 2 min 46 s, narrated in Portuguese: six students in seven days against one student with AI in two hours. AI does not level the field, it widens the gap.",
+        "es": "El caso IoTEdu en 2 min 46 s, narrado en portugués: seis alumnos en siete días contra un alumno con IA en dos horas. La IA no nivela, amplía la diferencia."
+      }
+    },
+    {
+      "kind": "video",
+      "file": "https://alegrete-summit.github.io/assets/video/alegrete-summit-2026-narrado.mp4",
+      "poster": "https://alegrete-summit.github.io/assets/video/alegrete-summit-2026-narrado.jpg",
+      "title": {
+        "pt": "Alegrete Summit 2026: inovar é construir pontes",
+        "en": "Alegrete Summit 2026: innovating is building bridges",
+        "es": "Alegrete Summit 2026: innovar es construir puentes"
+      },
+      "short": {
+        "pt": "Chamada do Summit",
+        "en": "Summit teaser",
+        "es": "Presentación del Summit"
+      },
+      "note": {
+        "pt": "A chamada do evento em 50s, narrada, da página inicial do site do Summit.",
+        "en": "The event teaser in 50 s, narrated in Portuguese, from the Summit site's home page.",
+        "es": "La presentación del evento en 50 s, narrada en portugués, de la página de inicio del sitio del Summit."
+      }
+    },
+    {
+      "kind": "video",
+      "file": "https://alegrete-summit.github.io/assets/video/ia-inovacao-simbiose.mp4",
+      "poster": "https://alegrete-summit.github.io/assets/video/ia-inovacao-simbiose.jpg",
+      "title": {
+        "pt": "IA + Inovação: a simbiose, versão original, sem narração",
+        "en": "AI + Innovation: the symbiosis, original version, without narration",
+        "es": "IA + Innovación: la simbiosis, versión original, sin narración"
+      },
+      "short": {
+        "pt": "A simbiose (original)",
+        "en": "The symbiosis (original)",
+        "es": "La simbiosis (original)"
+      },
+      "note": {
+        "pt": "O mesmo clipe sem a narração, com a trilha feita por código, em 72s.",
+        "en": "The same clip without narration, with a code-generated soundtrack, 72 s long.",
+        "es": "El mismo clip sin narración, con banda sonora generada por código, en 72 s."
+      }
+    },
+    {
+      "kind": "video",
+      "file": "https://alegrete-summit.github.io/assets/video/cowmed-ia.mp4",
+      "poster": "https://alegrete-summit.github.io/assets/video/cowmed-ia.jpg",
+      "title": {
+        "pt": "Cowmed, versão original, sem narração",
+        "en": "Cowmed, original version, without narration",
+        "es": "Cowmed, versión original, sin narración"
+      },
+      "short": {
+        "pt": "Cowmed (original)",
+        "en": "Cowmed (original)",
+        "es": "Cowmed (original)"
+      },
+      "note": {
+        "pt": "O mesmo clipe sem a narração, com a trilha feita por código, em 75s.",
+        "en": "The same clip without narration, with a code-generated soundtrack, 75 s long.",
+        "es": "El mismo clip sin narración, con banda sonora generada por código, en 75 s."
+      }
+    },
+    {
+      "kind": "video",
+      "file": "https://alegrete-summit.github.io/assets/video/revolucao-ia.mp4",
+      "poster": "https://alegrete-summit.github.io/assets/video/revolucao-ia.jpg",
+      "title": {
+        "pt": "A revolução da IA, versão original, sem narração",
+        "en": "The AI revolution, original version, without narration",
+        "es": "La revolución de la IA, versión original, sin narración"
+      },
+      "short": {
+        "pt": "A revolução da IA (original)",
+        "en": "The AI revolution (original)",
+        "es": "La revolución de la IA (original)"
+      },
+      "note": {
+        "pt": "O mesmo clipe sem a narração, com a trilha feita por código, em 2min46.",
+        "en": "The same clip without narration, with a code-generated soundtrack, 2 min 46 s long.",
+        "es": "El mismo clip sin narración, con banda sonora generada por código, en 2 min 46 s."
+      }
+    },
+    {
+      "kind": "audio",
+      "file": "https://alegrete-summit.github.io/musicas/alegrete-summit-thunder-4.mp3",
+      "title": {
+        "pt": "Alegrete Summit, Thunder, versão 4",
+        "en": "Alegrete Summit, Thunder, version 4",
+        "es": "Alegrete Summit, Thunder, versión 4"
+      },
+      "short": {
+        "pt": "Thunder 4 ★",
+        "en": "Thunder 4 ★",
+        "es": "Thunder 4 ★"
+      },
+      "note": {
+        "pt": "A favorita do Summit: energia do começo ao fim. Se for ouvir uma só, ouça esta. 3min35, feita com IA.",
+        "en": "The Summit favourite: energy from start to finish. If you only listen to one, make it this one. 3 min 35 s, made with AI.",
+        "es": "La favorita del Summit: energía de principio a fin. Si vas a escuchar una sola, que sea esta. 3 min 35 s, hecha con IA."
+      }
+    },
+    {
+      "kind": "audio",
+      "file": "https://alegrete-summit.github.io/musicas/alegrete-summit-versao-1.mp3",
+      "title": {
+        "pt": "Alegrete Summit, Original, versão 1",
+        "en": "Alegrete Summit, Original, version 1",
+        "es": "Alegrete Summit, Original, versión 1"
+      },
+      "short": {
+        "pt": "Original 1",
+        "en": "Original 1",
+        "es": "Original 1"
+      },
+      "note": {
+        "pt": "Música do Alegrete Summit 2026 no estilo Original, 3min35, feita com IA.",
+        "en": "Alegrete Summit 2026 song in the Original style, 3 min 35 s, made with AI.",
+        "es": "Canción del Alegrete Summit 2026 en estilo Original, 3 min 35 s, hecha con IA."
+      }
+    },
+    {
+      "kind": "audio",
+      "file": "https://alegrete-summit.github.io/musicas/alegrete-summit-versao-2.mp3",
+      "title": {
+        "pt": "Alegrete Summit, Original, versão 2",
+        "en": "Alegrete Summit, Original, version 2",
+        "es": "Alegrete Summit, Original, versión 2"
+      },
+      "short": {
+        "pt": "Original 2",
+        "en": "Original 2",
+        "es": "Original 2"
+      },
+      "note": {
+        "pt": "Música do Alegrete Summit 2026 no estilo Original, 3min35, feita com IA.",
+        "en": "Alegrete Summit 2026 song in the Original style, 3 min 35 s, made with AI.",
+        "es": "Canción del Alegrete Summit 2026 en estilo Original, 3 min 35 s, hecha con IA."
+      }
+    },
+    {
+      "kind": "audio",
+      "file": "https://alegrete-summit.github.io/musicas/alegrete-summit-versao-3.mp3",
+      "title": {
+        "pt": "Alegrete Summit, Original, versão 3",
+        "en": "Alegrete Summit, Original, version 3",
+        "es": "Alegrete Summit, Original, versión 3"
+      },
+      "short": {
+        "pt": "Original 3",
+        "en": "Original 3",
+        "es": "Original 3"
+      },
+      "note": {
+        "pt": "Música do Alegrete Summit 2026 no estilo Original, 3min35, feita com IA.",
+        "en": "Alegrete Summit 2026 song in the Original style, 3 min 35 s, made with AI.",
+        "es": "Canción del Alegrete Summit 2026 en estilo Original, 3 min 35 s, hecha con IA."
+      }
+    },
+    {
+      "kind": "audio",
+      "file": "https://alegrete-summit.github.io/musicas/alegrete-summit-versao-4.mp3",
+      "title": {
+        "pt": "Alegrete Summit, Original, versão 4",
+        "en": "Alegrete Summit, Original, version 4",
+        "es": "Alegrete Summit, Original, versión 4"
+      },
+      "short": {
+        "pt": "Original 4",
+        "en": "Original 4",
+        "es": "Original 4"
+      },
+      "note": {
+        "pt": "Música do Alegrete Summit 2026 no estilo Original, 3min35, feita com IA.",
+        "en": "Alegrete Summit 2026 song in the Original style, 3 min 35 s, made with AI.",
+        "es": "Canción del Alegrete Summit 2026 en estilo Original, 3 min 35 s, hecha con IA."
+      }
+    },
+    {
+      "kind": "audio",
+      "file": "https://alegrete-summit.github.io/musicas/alegrete-summit-thunder-1.mp3",
+      "title": {
+        "pt": "Alegrete Summit, Thunder, versão 1",
+        "en": "Alegrete Summit, Thunder, version 1",
+        "es": "Alegrete Summit, Thunder, versión 1"
+      },
+      "short": {
+        "pt": "Thunder 1",
+        "en": "Thunder 1",
+        "es": "Thunder 1"
+      },
+      "note": {
+        "pt": "Música do Alegrete Summit 2026 no estilo Thunder, 3min35, feita com IA.",
+        "en": "Alegrete Summit 2026 song in the Thunder style, 3 min 35 s, made with AI.",
+        "es": "Canción del Alegrete Summit 2026 en estilo Thunder, 3 min 35 s, hecha con IA."
+      }
+    },
+    {
+      "kind": "audio",
+      "file": "https://alegrete-summit.github.io/musicas/alegrete-summit-thunder-2.mp3",
+      "title": {
+        "pt": "Alegrete Summit, Thunder, versão 2",
+        "en": "Alegrete Summit, Thunder, version 2",
+        "es": "Alegrete Summit, Thunder, versión 2"
+      },
+      "short": {
+        "pt": "Thunder 2",
+        "en": "Thunder 2",
+        "es": "Thunder 2"
+      },
+      "note": {
+        "pt": "Música do Alegrete Summit 2026 no estilo Thunder, 3min35, feita com IA.",
+        "en": "Alegrete Summit 2026 song in the Thunder style, 3 min 35 s, made with AI.",
+        "es": "Canción del Alegrete Summit 2026 en estilo Thunder, 3 min 35 s, hecha con IA."
+      }
+    },
+    {
+      "kind": "audio",
+      "file": "https://alegrete-summit.github.io/musicas/alegrete-summit-thunder-3.mp3",
+      "title": {
+        "pt": "Alegrete Summit, Thunder, versão 3",
+        "en": "Alegrete Summit, Thunder, version 3",
+        "es": "Alegrete Summit, Thunder, versión 3"
+      },
+      "short": {
+        "pt": "Thunder 3",
+        "en": "Thunder 3",
+        "es": "Thunder 3"
+      },
+      "note": {
+        "pt": "Música do Alegrete Summit 2026 no estilo Thunder, 3min35, feita com IA.",
+        "en": "Alegrete Summit 2026 song in the Thunder style, 3 min 35 s, made with AI.",
+        "es": "Canción del Alegrete Summit 2026 en estilo Thunder, 3 min 35 s, hecha con IA."
+      }
+    },
+    {
+      "kind": "audio",
+      "file": "https://alegrete-summit.github.io/musicas/alegrete-summit-wired-1.mp3",
+      "title": {
+        "pt": "Alegrete Summit, Wired, versão 1",
+        "en": "Alegrete Summit, Wired, version 1",
+        "es": "Alegrete Summit, Wired, versión 1"
+      },
+      "short": {
+        "pt": "Wired 1",
+        "en": "Wired 1",
+        "es": "Wired 1"
+      },
+      "note": {
+        "pt": "Música do Alegrete Summit 2026 no estilo Wired, 3min35, feita com IA.",
+        "en": "Alegrete Summit 2026 song in the Wired style, 3 min 35 s, made with AI.",
+        "es": "Canción del Alegrete Summit 2026 en estilo Wired, 3 min 35 s, hecha con IA."
+      }
+    },
+    {
+      "kind": "audio",
+      "file": "https://alegrete-summit.github.io/musicas/alegrete-summit-wired-2.mp3",
+      "title": {
+        "pt": "Alegrete Summit, Wired, versão 2",
+        "en": "Alegrete Summit, Wired, version 2",
+        "es": "Alegrete Summit, Wired, versión 2"
+      },
+      "short": {
+        "pt": "Wired 2",
+        "en": "Wired 2",
+        "es": "Wired 2"
+      },
+      "note": {
+        "pt": "Música do Alegrete Summit 2026 no estilo Wired, 3min35, feita com IA.",
+        "en": "Alegrete Summit 2026 song in the Wired style, 3 min 35 s, made with AI.",
+        "es": "Canción del Alegrete Summit 2026 en estilo Wired, 3 min 35 s, hecha con IA."
+      }
+    },
+    {
+      "kind": "audio",
+      "file": "https://alegrete-summit.github.io/musicas/alegrete-summit-wired-3.mp3",
+      "title": {
+        "pt": "Alegrete Summit, Wired, versão 3",
+        "en": "Alegrete Summit, Wired, version 3",
+        "es": "Alegrete Summit, Wired, versión 3"
+      },
+      "short": {
+        "pt": "Wired 3",
+        "en": "Wired 3",
+        "es": "Wired 3"
+      },
+      "note": {
+        "pt": "Música do Alegrete Summit 2026 no estilo Wired, 3min35, feita com IA.",
+        "en": "Alegrete Summit 2026 song in the Wired style, 3 min 35 s, made with AI.",
+        "es": "Canción del Alegrete Summit 2026 en estilo Wired, 3 min 35 s, hecha con IA."
+      }
+    },
+    {
+      "kind": "audio",
+      "file": "https://alegrete-summit.github.io/musicas/alegrete-summit-wired-4.mp3",
+      "title": {
+        "pt": "Alegrete Summit, Wired, versão 4",
+        "en": "Alegrete Summit, Wired, version 4",
+        "es": "Alegrete Summit, Wired, versión 4"
+      },
+      "short": {
+        "pt": "Wired 4",
+        "en": "Wired 4",
+        "es": "Wired 4"
+      },
+      "note": {
+        "pt": "Música do Alegrete Summit 2026 no estilo Wired, 3min35, feita com IA.",
+        "en": "Alegrete Summit 2026 song in the Wired style, 3 min 35 s, made with AI.",
+        "es": "Canción del Alegrete Summit 2026 en estilo Wired, 3 min 35 s, hecha con IA."
+      }
+    },
+    {
+      "kind": "site",
+      "file": "https://alegrete-summit.github.io/",
+      "short": {
+        "pt": "alegrete-summit.github.io",
+        "en": "alegrete-summit.github.io",
+        "es": "alegrete-summit.github.io"
+      }
+    }
+  ],
+  "resources": [
+    {
+      "name": "Alegrete Summit 2026",
+      "url": "https://alegrete-summit.github.io",
+      "note": {
+        "pt": "O site do Summit, feito com IA para esta palestra: programação, músicas, clipes, casos de sucesso, a fábula de Kauã e um jogo, em três idiomas.",
+        "en": "The Summit site, built with AI for this talk: schedule, songs, clips, success stories, the fable of Kauã and a game, in three languages.",
+        "es": "El sitio del Summit, hecho con IA para esta charla: programa, canciones, clips, casos de éxito, la fábula de Kauã y un juego, en tres idiomas."
+      }
+    },
+    {
+      "name": "alegrete.org",
+      "url": "https://alegrete.org",
+      "note": {
+        "pt": "Uma cidade num site: atrativos, história, sabores e eventos de Alegrete, organizados com IA.",
+        "en": "A city in a website: Alegrete's attractions, history, food and events, organised with AI.",
+        "es": "Una ciudad en un sitio: atractivos, historia, sabores y eventos de Alegrete, organizados con IA."
+      }
+    },
+    {
+      "name": "IoTEdu",
+      "url": "https://iotedu.org",
+      "note": {
+        "pt": "O projeto nacional de inovação do caso dos sete dias contra duas horas.",
+        "en": "The national innovation project behind the seven days versus two hours case.",
+        "es": "El proyecto nacional de innovación del caso de los siete días contra dos horas."
+      }
+    },
+    {
+      "name": "BIA, Bacharelado em IA da UNIPAMPA",
+      "url": "https://bia-unipampa.github.io",
+      "note": {
+        "pt": "O novo curso de Inteligência Artificial do Campus Alegrete, com a seção BIA nas escolas e quatro jogos que usam IA de verdade.",
+        "en": "The new Artificial Intelligence degree at the Alegrete campus, with the BIA in schools section and four games that use real AI.",
+        "es": "La nueva carrera de Inteligencia Artificial del Campus Alegrete, con la sección BIA en las escuelas y cuatro juegos que usan IA de verdad."
+      }
+    },
+    {
+      "name": "AI Horizon Labs",
+      "url": "https://ai-horizon-labs.github.io",
+      "note": {
+        "pt": "O laboratório de pesquisa em IA do palestrante.",
+        "en": "The speaker's AI research lab.",
+        "es": "El laboratorio de investigación en IA del orador."
+      }
+    }
+  ],
+  "i18n": {
+    "pt": {
+      "title": "A IA acelera. Quem constrói as pontes?",
+      "tagline": "Inovação, ecossistemas e o que ficou caro quando construir ficou barato.",
+      "event": "Alegrete Summit 2026",
+      "when": "29 de outubro de 2026, 16h15",
+      "where": "Auditório da Superintendência do Sicredi Essência, Alegrete/RS",
+      "format": "Palestra em cinco atos, com oito perguntas para a sala e clipes, fábula, músicas e sites feitos com IA",
+      "audience": "Empreendedores, empresas, estudantes, docentes e o ecossistema de inovação da Fronteira Oeste",
+      "summary": [
+        "Um programador sozinho, em Israel, faz um projeto paralelo e seis meses depois o vende por US$ 80 milhões. Uma empresa sueca fatura US$ 400 milhões por ano com 146 pessoas. Construir ficou barato. A palestra pergunta o que ficou caro.",
+        "No caminho, a velocidade da adoção, o que já dá para construir, inclusive aqui, com o clipe, a fábula, as músicas e o site deste Summit, todos feitos com IA, e um caso real: seis alunos levaram sete dias numa tarefa que um aluno só, usando IA em alto nível, entregou melhor em duas horas. A IA não nivela, amplia a diferença.",
+        "E também onde ela engana: a IA não erra com cara de erro, erra com cara de resposta pronta. No fim, as pontes: o problema local, o dado que só você tem, a comunidade pronta e a base que Alegrete já tem para atravessar."
+      ],
+      "numbers": [
+        {
+          "value": "US$ 80 milhões",
+          "label": "O preço da Base44, projeto paralelo de um programador sozinho, seis meses depois de criado."
+        },
+        {
+          "value": "146 pessoas",
+          "label": "A equipe da Lovable quando chegou a US$ 400 milhões de receita anualizada."
+        },
+        {
+          "value": "128×",
+          "label": "Menos horas para entregar mais: 256 horas-pessoa de seis alunos contra 2 horas de um aluno com IA."
+        },
+        {
+          "value": "88% / 39%",
+          "label": "Das empresas usam IA em alguma função, mas só 39% veem efeito no lucro."
+        }
+      ],
+      "outline": [
+        {
+          "title": "Abertura: a fábula de Kauã",
+          "text": "Internet, um notebook e IA. O problema local é o diferencial: Kauã entra com o conhecimento da floresta, a IA com a técnica."
+        },
+        {
+          "title": "Construir ficou barato",
+          "text": "Base44, vendida por US$ 80 milhões seis meses depois de nascer como projeto paralelo de uma pessoa. Então, o que ficou caro?"
+        },
+        {
+          "title": "Ato 1: a velocidade",
+          "text": "53% de adoção da IA generativa em três anos, mais rápido que o PC e a internet. 88% das empresas usam, 39% veem lucro."
+        },
+        {
+          "title": "Ato 2: o que já dá para construir",
+          "text": "Lovable, Tractian, o clipe da Engenharia Agrícola, alegrete.org e o site deste Summit, todos com muita receita ou muito conteúdo e pouca gente."
+        },
+        {
+          "title": "Ato 3: a diferença está em quem usa",
+          "text": "Mais 34% para atendentes novatos, 19% mais lentos para programadores experientes. E o caso IoTEdu: 7 dias contra 2 horas."
+        },
+        {
+          "title": "Ato 4: onde ela engana",
+          "text": "O site bonito que não funcionava, o agente que apagou um banco de dados, a jurisprudência inventada. Velocidade sem conferência vira prejuízo."
+        },
+        {
+          "title": "Ato 5: as pontes",
+          "text": "O que ficou barato e o que ficou caro, casos do Pampa, a comunidade que salvou vidas em 2024 sem IA, o BIA e o Ideathon do Summit."
+        }
+      ],
+      "takeaways": [
+        "Usar ficou fácil. Transformar em valor, não.",
+        "A vantagem não é ter IA. É saber aplicar.",
+        "A IA não nivela. Ela amplia a diferença.",
+        "A IA não erra com cara de erro. Erra com cara de resposta pronta.",
+        "A ferramenta acelera. Quem salva é a comunidade pronta.",
+        "A IA baixou o custo de construir. O território decide o que vale construir."
+      ]
+    },
+    "en": {
+      "title": "AI accelerates. Who builds the bridges?",
+      "tagline": "Innovation, ecosystems and what got expensive once building got cheap.",
+      "event": "Alegrete Summit 2026",
+      "when": "29 October 2026, 4:15 pm",
+      "where": "Sicredi Essência headquarters auditorium, Alegrete, Brazil",
+      "format": "Talk in five acts, with eight questions for the room and clips, a fable, songs and websites made with AI",
+      "audience": "Entrepreneurs, companies, students, faculty and the innovation ecosystem of Brazil's western border region",
+      "summary": [
+        "A lone programmer in Israel starts a side project and sells it six months later for US$ 80 million. A Swedish company makes US$ 400 million a year with 146 people. Building got cheap. The talk asks what got expensive.",
+        "Along the way: how fast adoption has been, what can already be built, including here, with this Summit's clip, fable, songs and website, all made with AI, and a real case: six students spent seven days on a task that a single student, using AI at a high level, delivered better in two hours. AI does not level the field, it widens the gap.",
+        "And also where it deceives: AI is not wrong in a way that looks wrong, it is wrong in a way that looks finished. At the end, the bridges: the local problem, the data only you have, a community that is ready and the base Alegrete already has to cross over."
+      ],
+      "numbers": [
+        {
+          "value": "US$ 80 million",
+          "label": "The price of Base44, a lone programmer's side project, six months after it started."
+        },
+        {
+          "value": "146 people",
+          "label": "Lovable's team when it reached US$ 400 million in annualised revenue."
+        },
+        {
+          "value": "128×",
+          "label": "Fewer hours to deliver more: 256 person-hours from six students against 2 hours from one student with AI."
+        },
+        {
+          "value": "88% / 39%",
+          "label": "Of companies use AI somewhere, but only 39% see any effect on profit."
+        }
+      ],
+      "outline": [
+        {
+          "title": "Opening: the fable of Kauã",
+          "text": "Internet, a laptop and AI. The local problem is the edge: Kauã brings knowledge of the forest, AI brings the technique."
+        },
+        {
+          "title": "Building got cheap",
+          "text": "Base44, sold for US$ 80 million six months after starting as one person's side project. So what got expensive?"
+        },
+        {
+          "title": "Act 1: speed",
+          "text": "53% adoption of generative AI in three years, faster than the PC and the internet. 88% of companies use it, 39% see profit."
+        },
+        {
+          "title": "Act 2: what can already be built",
+          "text": "Lovable, Tractian, the Agricultural Engineering clip, alegrete.org and this Summit's website, all with lots of revenue or content and few people."
+        },
+        {
+          "title": "Act 3: the difference is in who uses it",
+          "text": "34% more for novice support agents, 19% slower for experienced programmers. And the IoTEdu case: 7 days against 2 hours."
+        },
+        {
+          "title": "Act 4: where it deceives",
+          "text": "The good-looking website that did not work, the agent that deleted a database, the invented case law. Speed without checking turns into loss."
+        },
+        {
+          "title": "Act 5: the bridges",
+          "text": "What got cheap and what got expensive, cases from the Pampa, the community that saved lives in 2024 without AI, the BIA degree and the Summit Ideathon."
+        }
+      ],
+      "takeaways": [
+        "Using it got easy. Turning it into value did not.",
+        "The edge is not having AI. It is knowing how to apply it.",
+        "AI does not level the field. It widens the gap.",
+        "AI is not wrong in a way that looks wrong. It is wrong in a way that looks finished.",
+        "The tool accelerates. A community that is ready is what saves.",
+        "AI lowered the cost of building. The territory decides what is worth building."
+      ]
+    },
+    "es": {
+      "title": "La IA acelera. ¿Quién construye los puentes?",
+      "tagline": "Innovación, ecosistemas y lo que se encareció cuando construir se abarató.",
+      "event": "Alegrete Summit 2026",
+      "when": "29 de octubre de 2026, 16:15",
+      "where": "Auditorio de la Superintendencia de Sicredi Essência, Alegrete, Brasil",
+      "format": "Charla en cinco actos, con ocho preguntas para el público y clips, fábula, canciones y sitios hechos con IA",
+      "audience": "Emprendedores, empresas, estudiantes, docentes y el ecosistema de innovación de la Frontera Oeste",
+      "summary": [
+        "Un programador solo, en Israel, hace un proyecto paralelo y seis meses después lo vende por US$ 80 millones. Una empresa sueca factura US$ 400 millones al año con 146 personas. Construir se abarató. La charla pregunta qué se encareció.",
+        "En el camino: la velocidad de adopción, lo que ya se puede construir, también aquí, con el clip, la fábula, las canciones y el sitio de este Summit, todos hechos con IA, y un caso real: seis alumnos tardaron siete días en una tarea que un solo alumno, usando IA a alto nivel, entregó mejor en dos horas. La IA no nivela, amplía la diferencia.",
+        "Y también dónde engaña: la IA no se equivoca con cara de error, se equivoca con cara de respuesta lista. Al final, los puentes: el problema local, el dato que solo tú tienes, la comunidad preparada y la base que Alegrete ya tiene para cruzar."
+      ],
+      "numbers": [
+        {
+          "value": "US$ 80 millones",
+          "label": "El precio de Base44, proyecto paralelo de un programador solo, seis meses después de nacer."
+        },
+        {
+          "value": "146 personas",
+          "label": "El equipo de Lovable cuando llegó a US$ 400 millones de ingresos anualizados."
+        },
+        {
+          "value": "128×",
+          "label": "Menos horas para entregar más: 256 horas-persona de seis alumnos contra 2 horas de un alumno con IA."
+        },
+        {
+          "value": "88% / 39%",
+          "label": "De las empresas usan IA en alguna función, pero solo el 39% ve efecto en las ganancias."
+        }
+      ],
+      "outline": [
+        {
+          "title": "Apertura: la fábula de Kauã",
+          "text": "Internet, una notebook e IA. El problema local es el diferencial: Kauã aporta el conocimiento de la selva, la IA la técnica."
+        },
+        {
+          "title": "Construir se abarató",
+          "text": "Base44, vendida por US$ 80 millones seis meses después de nacer como proyecto paralelo de una persona. Entonces, ¿qué se encareció?"
+        },
+        {
+          "title": "Acto 1: la velocidad",
+          "text": "53% de adopción de la IA generativa en tres años, más rápido que la PC e internet. El 88% de las empresas la usa, el 39% ve ganancias."
+        },
+        {
+          "title": "Acto 2: lo que ya se puede construir",
+          "text": "Lovable, Tractian, el clip de Ingeniería Agrícola, alegrete.org y el sitio de este Summit, todos con mucho ingreso o contenido y poca gente."
+        },
+        {
+          "title": "Acto 3: la diferencia está en quién la usa",
+          "text": "34% más para operadores novatos, 19% más lentos los programadores experimentados. Y el caso IoTEdu: 7 días contra 2 horas."
+        },
+        {
+          "title": "Acto 4: dónde engaña",
+          "text": "El sitio lindo que no funcionaba, el agente que borró una base de datos, la jurisprudencia inventada. Velocidad sin verificación se vuelve pérdida."
+        },
+        {
+          "title": "Acto 5: los puentes",
+          "text": "Lo que se abarató y lo que se encareció, casos de la Pampa, la comunidad que salvó vidas en 2024 sin IA, el BIA y el Ideathon del Summit."
+        }
+      ],
+      "takeaways": [
+        "Usarla se volvió fácil. Convertirla en valor, no.",
+        "La ventaja no es tener IA. Es saber aplicarla.",
+        "La IA no nivela. Amplía la diferencia.",
+        "La IA no se equivoca con cara de error. Se equivoca con cara de respuesta lista.",
+        "La herramienta acelera. Quien salva es la comunidad preparada.",
+        "La IA bajó el costo de construir. El territorio decide qué vale la pena construir."
+      ]
+    }
+  }
+}
